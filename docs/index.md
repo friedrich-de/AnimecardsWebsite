@@ -19,6 +19,7 @@ All software suggested on this site is available free of charge and respects you
 
 Changelog: 26-01-2022
 
+- The site is now available on GitHub: <https://github.com/friedrich-de/AnimecardsWebsite>. 
 - Updated information for Anki 2.1.49
 - Added various information for Linux (including a section on setting up VNs)
 - Updated contact information 
