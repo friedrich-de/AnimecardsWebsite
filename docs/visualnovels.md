@@ -148,7 +148,7 @@ You can now follow the Textractor section above inside your VM. You can insert a
 
 ### Disabling Right-CTRL
 
-VirtualBox lets you Alt-Tab to your host without a problem now, but there is still an issue. You don't have to press it but internally VirtualBox still send a Right-CTRL (the host key) to the VM. This is an issue because in most VNs touching CTRL will make the VN start skipping text. As we don't want text skipped every time we look something up we have to find a way to mitigate this. The easiest way to do this is to disable Right-CTRL in the registry using a [Sharpkeys](https://github.com/randyrants/sharpkeys). After you reboot the machine Alt-Tabbing should no longer trigger text skipping.
+VirtualBox lets you Alt-Tab to your host without a problem now, but there is still an issue. You don't have to press it but internally VirtualBox still send a Right-CTRL (the host key) to the VM. This is an issue because in most VNs touching CTRL will make the VN start skipping text. As we don't want text skipped every time we look something up we have to find a way to mitigate this. The easiest way to do this is to disable Right-CTRL in the registry using a program called [Sharpkeys](https://github.com/randyrants/sharpkeys). After you reboot the machine Alt-Tabbing should no longer trigger text skipping.
 
 <figure>
   <img src="/images/sharpkeys.png" width="600"/>
