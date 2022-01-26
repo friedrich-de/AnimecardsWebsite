@@ -1,0 +1,48 @@
+site_name: Animecards Site
+site_author: QM
+site_description: Introducing Japanese learning methods and tools, in particular those important in regards to using Japanese media to learn the language. 
+
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    scheme: slate
+    primary: black
+  logo: assets/ideogram-cjk-variant.svg
+  favicon: assets/smallmarisa.png
+  features:
+    - navigation.instant
+    - header.autohide
+    - navigation.sections
+
+plugins:
+    - redirects:
+        redirect_maps:
+            'discord.md': 'https://discord.gg/pPbmXvCXs6'
+            'discord_backup.md': 'https://discord.gg/vBTX8tkcbQ'
+
+markdown_extensions:
+  - meta
+  - attr_list
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+nav:
+    - Home: "index.md"
+    - 'Learning Japanese':
+      - Introduction: 'learningjapanese.md'
+      - Writing: 'writingjapanese.md'
+    - 'Setup':
+      - Anki: 'ankisetup.md'
+      - "Anki: Card Types": 'ankicards.md'
+      - Yomichan and Mining: 'yomichansetup.md'
+      - Handling Media: 'media.md'
+    - 'Tools and Card Creation':
+      - Anime: 'minefromanime.md'
+      - Subtitle Re-sync: 'subtitles.md'
+      - Visual Novels: 'visualnovels.md'
+    - 'Other':
+      - Contact and Support: 'support.md'
+      - Discord: 'discord.md'
+      - Discord Backup: 'discord_backup.md'
