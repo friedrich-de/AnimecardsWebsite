@@ -20,6 +20,7 @@ plugins:
         redirect_maps:
             'discord.md': 'https://discord.gg/pPbmXvCXs6'
             'discord_backup.md': 'https://discord.gg/vBTX8tkcbQ'
+    - search
 
 markdown_extensions:
   - meta

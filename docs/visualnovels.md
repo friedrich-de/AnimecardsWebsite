@@ -121,7 +121,7 @@ Useful links:
 
 ## Reading visual novels on Linux
 
-There are many ways to make this work. Other guides suggest you use a compatibility tool like Wine, but personally I do not recommend it. Wine is a hacky solution that is not guaranteed to work, is inherently insecure and messes with your system in a way I find undesirable. Instead I opt to use VirtualBox. Utilizing the various features VirtualBox offers, we can have an experience that trumps that of Windows users (through the use of borderless fullscreen on any program), while keeping the VN and other programs nicely isolated from our main system. The only thing you need is a machine powerful enough to run a VM.
+There are many ways to make this work. Other guides suggest you use a compatibility tool like Wine, but personally I do not recommend it. Wine is a hacky solution that is not guaranteed to work, is inherently insecure and messes with your system in a way I find undesirable. Instead I opt to use VirtualBox. Utilizing the various features VirtualBox offers, we can have an experience that trumps that of Windows users (through the use of borderless fullscreen on any program and machine state restoration), while keeping the VN and other programs nicely isolated from our main system. The only thing you need is a machine powerful enough to run a VM.
 
 ### Setting up VirtualBox and installing Windows
 
@@ -157,6 +157,6 @@ VirtualBox lets you Alt-Tab to your host without a problem now, but there is sti
 
 ### The most comfortable reading experience
 
-If everything worked you can now start Textractor, your VN, hook the text and experiment with the different display modes to find what best works for you. I recommend `View -> Full-screen mode`. 
+If everything worked you can now start Textractor, your VN, hook the text and experiment with the different display modes to find what best works for you. I recommend `View -> Full-screen mode`. The best thing is, you only have to set this up once for every VN! Once you close the VN simply tick `Save machine state` and you will be right back when you were next time you launch the VM. 
 
 Reading the VN and utilizing Textractor on the VM, you can Yomichan scan in the hooking window on your host machine and mine unknown words with Yomichan to Anki. Enjoy!
