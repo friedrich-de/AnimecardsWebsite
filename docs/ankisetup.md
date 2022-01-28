@@ -205,9 +205,22 @@ With this you can generate stroke diagrams on your cards. I used it during the c
 
 ---
 
-## Creating a card type
+## Suspending ("Retire") cards with a big interval
 
-Although specified in a previous version of this guide, this section got removed for being redundant. Please read the manual regarding how manual card creation works. It is incredibly useful far beyond Japanese. Also learn how to use the card browser effectively. The power the card browser gives you over your collection is one of the things that make Anki excel. 
+There is some addons for this purpose like the [Migaku Retirement Addon](https://ankiweb.net/shared/info/1666520655) but I have not made good experiences with these myself. I've also heard negative things from others. These addons are prone to being broken by updates or having bugs that potentially break your collection. Luckily we do not need to use an addon to retire cards that have a large enough interval and it is always better to use core Anki features rather than addons where possible. The only thing we need is the card browser and the correct search parameters!
+
+1. Open the card browser and click on the deck you want to apply the filter on.
+2. Add the parameter `-is:suspended` to filter all cards currently suspended.
+3. Now add the parameter `prop:ivl>=120`. This will filter all with an interval shorter than 120 days. 
+4. Save this search by right-clicking `Saved searches` and clicking `Save current search`.
+
+You can now safely suspend every single card you see in this saved search. Of course you are free to adjust the interval to something greater than 120 days (like 1 year if you prefer). You just have to remember to go into the card browser and suspend the cards every few months. 
+
+<figure>
+  <img src="/images/retire.png"/>
+  <figcaption>Retiring cards with the card browser search.</figcaption>
+</figure>
+
 
 ---
 
@@ -219,3 +232,9 @@ Version 2.1.49 introduced a new options menu. Here is a screenshot with good set
   <img src="/images/options.png"/>
   <figcaption>The new options menu.</figcaption>
 </figure>
+
+## Creating a card type
+
+Although specified in a previous version of this guide, this section got removed for being redundant. Please read the manual regarding how manual card creation works. It is incredibly useful far beyond Japanese. Also learn how to use the card browser effectively. The power the card browser gives you over your collection is one of the things that make Anki excel. 
+
+---
