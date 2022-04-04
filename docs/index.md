@@ -13,15 +13,8 @@ The focus is on impartiality, showing only community approved tools, and simplen
 
 If you have questions of any sort feel free to ask in the #join-chat of the Discord server: <https://animecards.site/discord/> or check out the the [contact page](support.md) for more ways to contact me.
 
-All software suggested on this site is available free of charge and respects your [freedom](https://www.gnu.org/philosophy/free-sw.en.html). All steps are applicable to both Windows and Linux.
+All steps are applicable to both Windows and Linux. All software is free. No paid products or services are offered
 
 --- 
 
-Changelog: 26-01-2022
-
-- The site is now available on GitHub: <https://github.com/friedrich-de/AnimecardsWebsite>. 
-- Updated information for Anki 2.1.49
-- Added various information for Linux (including a section on setting up VNs)
-- Updated contact information 
-- Linked to external sites for fixing fonts and J-J dictionaries
-- Many text improvements
+The site is now available on GitHub: <https://github.com/friedrich-de/AnimecardsWebsite>. 
