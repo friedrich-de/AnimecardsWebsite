@@ -18,8 +18,8 @@ theme:
 plugins:
     - redirects:
         redirect_maps:
-            'discord.md': 'https://discord.gg/pPbmXvCXs6'
-            'discord_backup.md': 'https://discord.gg/vBTX8tkcbQ'
+            'discord.md': 'https://discord.gg/mFZ3WEGzN2'
+            'discord_backup.md': 'https://discord.gg/etxJA4SCwE'
     - search
 
 markdown_extensions:
