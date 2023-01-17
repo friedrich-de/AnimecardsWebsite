@@ -54,7 +54,7 @@ An anime card contains similar information but arranged differently. It has to c
 Optimally it also contains:
 
 - Sentence audio
-- Visual context information
+- Visual context information (screenshot)
 - Pitch accent information
 
 Depending on the situation it may contain:
@@ -62,8 +62,8 @@ Depending on the situation it may contain:
 - A hint field on the front (more on this later)
 
 <figure>
-  <img src="/images/animecardsample.jpg"/>
-<figcaption>An example anime card (made from a visual novel).</figcaption>
+  <img src="/images/anime_card.png"/>
+<figcaption>An example anime card (made from an anime).</figcaption>
 </figure>
 
 Reviewing these cards is very simple. You look at the information on the front (the word and sometimes a hint) and
@@ -91,10 +91,10 @@ they can invest elsewhere, their motivation to invest it more valuably is also m
 
 Reviewing words in a context you are already familiar with is problematic and is not representative of situations where
 you will have to recall the target word later. Before you have even reached the relevant section of the sentence, you
-will already have recalled the situation and it will be impossible to fail the card based on 'meaning' because of how
+will already have recalled the situation, and it will be impossible to fail the card based on 'meaning' because of how
 strong context memory is. This is doubly true if you put the image on the front of the card.
 
-However you have no guarantee you actually remembered the information you made a card for in the first place. Anime
+However, you have no guarantee you actually remembered the information you made a card for in the first place. Anime
 cards fix this by stripping the context from the front of the card and merely using it to remind you of what the word
 means if you fail it and need to be reminded.
 
@@ -102,9 +102,9 @@ means if you fail it and need to be reminded.
 
 They simply test too much. Rather than testing you on a minimal piece of information (reading and meaning of one word)
 you will have to read an entire sentence, decide whether you were able to read every word, understood the sentence as a
-whole and knew what the parts meant. Do this hundreds of times a day and you will indeed experience 'decision fatigue'.
+whole and knew what the parts meant. Do this hundreds of times a day, and you will indeed experience 'decision fatigue'.
 
-Anime cards are more simple testing you on far fewer information making the review process and decision making simple.
+Anime cards are more simple testing you on far fewer information making the review process and decision-making simple.
 Your brain is equipped with everything it needs to recognize most things out of context and where there might be
 difficulties we add a hint field (see below).
 
@@ -114,7 +114,7 @@ It's not that they don't work, but you can do a lot better. Let me borrow a form
 that claim sentence cards work when they talk about people who were 'successful' through traditional study methods:
 
 **They learned despite it, not because of it.** Most of these people have dedicated large parts of their lives to the
-pursuit of Japanese language skills, only a small part of which has anything to do with cards and we shouldn't make the
+pursuit of Japanese language skills, only a small part of which has anything to do with cards, and we shouldn't make the
 mistake of thinking Anki is anything but complementary to the other activities that you engage in with the language. Not
 to mention that there is no information about how many people **failed** learning Japanese using sentence cards,
 see [Survivorship bias](https://en.wikipedia.org/wiki/Survivorship_bias).
@@ -141,7 +141,7 @@ the 'hint' field for anime cards here as well for completion.
 
 ### Disambiguating readings.
 
-You can use the hint field to disambiguate the correct reading. Sometimes this is cleared up by the context but often it
+You can use the hint field to disambiguate the correct reading. Sometimes this is cleared up by the context, but often it
 isn't and has to be explicitly mentioned. A couple of examples:
 
 - 武士 (ぶし - もののふ)
@@ -174,7 +174,7 @@ Japanese to Japanese dictionaries and may not be voiced in the Yomichan audio.
 ### Onomatopoeic or kana words.
 
 Kanji provide a semantic hint towards the meaning of the word. If this hint is missing entirely it may be much harder to
-remember the meaning without a context. To make these cards easier on you it does make sense to include a context
+remember the meaning without a context. To make these cards easier on you, it does make sense to include a context
 snipped for clarification:
 
 <figure>
@@ -184,6 +184,6 @@ snipped for clarification:
 
 ### Making cards easier.
 
-When the kanji don't provide enough of a hint or you have failed a card several time you can use the hint field to
+When the kanji don't provide enough of a hint, or you have failed a card several time you can use the hint field to
 straight up make the review process easier. It should generally be avoided where you can but can be used as a last
 resort. 
