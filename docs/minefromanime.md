@@ -21,7 +21,7 @@ video demonstration:
 
 1. A [mining deck set up with Yomichan](yomichansetup.md) (you can find a template deck you can
    use [here](https://ankiweb.net/shared/info/151553357)).
-2. The mpv player. <p>mpv ([get it here](https://mpv.io/)) is a free video player with great scripting capabilities.</p>
+2. The mpv player. <p>mpv ([get it here if you are on Windows](https://mpv.io/)) is a free video player with great scripting capabilities.</p>
 3. The script itself. The newest version can always be found
    here: <https://mega.nz/folder/349ziIYT#gtEzi4UtnyDVr4_wJAvBlg>
 4. A <a href="https://anacreondjt.gitlab.io/docs/texthooker/">text hooking page</a> (preferably download it for local
@@ -42,7 +42,7 @@ text hooking page.
 
 ### Installation
 
-1. After installing mpv move the script to the mpv script folder usually
+1. After installing mpv move the script to the mpv script folder. On Windows usually
    at: `C:/Users/Username/AppData/Roaming/mpv/scripts/` (If it doesn't exist create it.) <p>You can reach the appdata
    folder by simply typing `%appdata%` into the address bar or the search.</p> The path is `~/.config/mpv/scripts/` on
    Linux.
@@ -54,7 +54,7 @@ information:
 ```
 ------------- User Config -------------
 -- Set these to match your field names in Anki
-local FRONT_FIELD = "front"
+local FRONT_FIELD = "Word"
 local SENTENCE_AUDIO_FIELD = "SentenceAudio"
 local SENTENCE_FIELD = "Sentence"
 local IMAGE_FIELD = "Picture"
@@ -62,7 +62,7 @@ local IMAGE_FIELD = "Picture"
 
 **Important:**
 
-- Don't forget to adjust the path information (`[[Anki2\User 1\collection.media]]`) so it matches your Anki user name
+- Don't forget to adjust the path information (`[[Anki2\User 1\collection.media]]`) so it matches your Anki username
   and links to a valid media folder. The script will not work if this folder is not correctly set.
 - You need to have **separate fields for word audio and sentence audio** in the script settings and on your card format.
 
@@ -87,11 +87,11 @@ would set `local AUTOPLAY_AUDIO = true` but that is mere preference.
    <video controls>
     <source src="/video/clipboardmpv.mp4" type="video/mp4">
     Your browser does not support the video tag.
-    </video></p> 
+    </video>
 3. When there is a word you want to mine, [create a card with Yomichan](yomichansetup.md).
 4. Select the entire sentence/section you want to have as context on your card and copy it.
 5. Go back into the mpv window and press Ctrl + v <p>A notification should appear saying that the card got updated. The
-   card should now be updated.</p>
+   card should now be updated.
 
 <figure>
   <img src="/images/confirmmessage.jpg"/>

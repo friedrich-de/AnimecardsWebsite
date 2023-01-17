@@ -207,3 +207,17 @@ were next time you launch the VM.
 
 Reading the VN and utilizing Textractor on the VM, you can Yomichan scan in the hooking window on your host machine and
 mine unknown words with Yomichan to Anki. Enjoy!
+
+## Reading visual novels on Linux | Alternatives
+
+Having trouble with VirtualBox? Sadly VirtualBox does not provide the best virtualization method and thus fails in
+certain more demanding games. You can still try [Wine](https://learnjapanese.moe/vn-linux/), but alternatively you
+can also try QEMU/KVM, which offers vastly superior VM performance.
+
+Installation blows the scope of this guide, but everything you can do on VirtualBox is also possible here, so go ahead
+and try it. Useful links:
+
+https://wiki.archlinux.org/title/Libvirt
+https://leduccc.medium.com/improving-the-performance-of-a-windows-10-guest-on-qemu-a5b3f54d9cf5
+
+

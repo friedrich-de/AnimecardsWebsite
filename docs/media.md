@@ -163,7 +163,7 @@ First follow the instructions as described here, so the correct recording device
 <https://askubuntu.com/a/1051240/392897>
 
 Then put the following in a script and bind it to any key with your DE. Press once to start recording, a second time to
-stop, then Ctrl+V into an Anki field. Obviously you will need to have xclip and ffmpeg installed.
+stop, then Ctrl+V into an Anki field. You will need to have `xclip` and `ffmpeg` installed.
 
 ```
 #!/bin/bash

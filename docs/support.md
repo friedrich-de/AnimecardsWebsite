@@ -17,7 +17,7 @@ intended for code documentation).
 
 # Support
 
-If this site was useful to you and you want to support me financially you can you do so on Patreon:
+If this site was useful to you, and you want to support me financially you can you do so on Patreon:
 
 <https://www.patreon.com/Quizmaster>
 
