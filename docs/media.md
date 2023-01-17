@@ -105,7 +105,7 @@ After ffmpeg downloaded a message telling you that ffmpeg was successfully insta
 You can type ffmpeg settings into the command line window to make various adjustments (for example changing the volume of recording).
 
 My personal settings that trim silence and reduce the volume a bit:
-`-y -rtbufsize 100M -f dshow -i audio="virtual-audio-capturer" -c:a libmp3lame -filter:a "volume=0.9" -af silenceremove=1:0:-50dB -qscale:a 4 "$output$"`
+`-y -rtbufsize 100M -f dshow -i audio="virtual-audio-capturer" -c:a libmp3lame -filter:a "volume=0.9, silenceremove=1:0:-50dB" -qscale:a 4 "$output$"`
 
 You can now use the hotkey to record any audio playing on your computer. Press the hotkey to start recording and press it again to finish. The result will be copied to your clipboard and can be directly pasted into Anki.
 
