@@ -10,15 +10,19 @@ ShareX has a number of functions that are useful to language learners. These inc
 - Record Audio
 - OCR (Optical Character Recognition)
 
-You can paste the result from all these operations directly into Anki. This is important for mining from Youtube videos, video games or visual novels for example. Of course ShareX has a myriad of functions beyond that and if you are interested I suggest you take a look at their site: <https://getsharex.com/>
+You can paste the result from all these operations directly into Anki. This is important for mining from Youtube videos,
+video games or visual novels for example. Of course ShareX has a myriad of functions beyond that and if you are
+interested I suggest you take a look at their site: <https://getsharex.com/>
 
-In this section however we will only setup the functions above on hotkeys we can use anytime without touching any global settings.
+In this section however we will only setup the functions above on hotkeys we can use anytime without touching any global
+settings.
 
 ---
 
 #### Download and set file folder
 
-After downloading and installing ShareX from the [github page](https://github.com/ShareX/ShareX/releases/) you should define a directory for it to save all your files.
+After downloading and installing ShareX from the [github page](https://github.com/ShareX/ShareX/releases/) you should
+define a directory for it to save all your files.
 
 Application settings → Paths → Browse → Select your folder
 
@@ -43,7 +47,8 @@ Set up a hotkey for screenshots.
   <img src="/images/screenshothotkey.gif" width="600"/>
 </figure>
 
-If you have peripherals with additional keys placing it on one of those is good. Afterwards go back into the hotkey settings:
+If you have peripherals with additional keys placing it on one of those is good. Afterwards go back into the hotkey
+settings:
 
 3. Tick 'override after capture settings'
 4. Untick 'upload to image host'
@@ -53,9 +58,11 @@ If you have peripherals with additional keys placing it on one of those is good.
   <img src="/images/screenshothotkeysettings.gif" width="600"/>
 </figure>
 
-Changing the image format to JPEG will save space on your hard drive and on Ankiweb. We also stop it from pestering you with trying to upload it to an online image host. 
+Changing the image format to JPEG will save space on your hard drive and on Ankiweb. We also stop it from pestering you
+with trying to upload it to an online image host.
 
-You can now use your hotkey to capture an image and paste the result into Anki with Ctrl+V. This also works on other sites like Discord or 4chan:
+You can now use your hotkey to capture an image and paste the result into Anki with Ctrl+V. This also works on other
+sites like Discord or 4chan:
 
 <figure>
   <img src="/images/pastingimage.gif" width="600"/>
@@ -68,9 +75,9 @@ You can now use your hotkey to capture an image and paste the result into Anki w
 
 Set up a hotkey for audio recording.
 
-1.  Hotkey settings → Add → Task: Screen record → Start/Stop screen recording using activate window region
-2.  Override after capture settings: Tick copy file to clipboard
-3.  Click on 'none' → Define key combination for audio recording
+1. Hotkey settings → Add → Task: Screen record → Start/Stop screen recording using activate window region
+2. Override after capture settings: Tick copy file to clipboard
+3. Click on 'none' → Define key combination for audio recording
 
 <figure>
   <img src="/images/audiohotkey.gif" width="600"/>
@@ -102,30 +109,35 @@ After ffmpeg downloaded a message telling you that ffmpeg was successfully insta
   <img src="/images/audiofinal.gif"/>
 </figure>
 
-You can type ffmpeg settings into the command line window to make various adjustments (for example changing the volume of recording).
+You can type ffmpeg settings into the command line window to make various adjustments (for example changing the volume
+of recording).
 
 My personal settings that trim silence and reduce the volume a bit:
 `-y -rtbufsize 100M -f dshow -i audio="virtual-audio-capturer" -c:a libmp3lame -filter:a "volume=0.9, silenceremove=1:0:-50dB" -qscale:a 4 "$output$"`
 
-You can now use the hotkey to record any audio playing on your computer. Press the hotkey to start recording and press it again to finish. The result will be copied to your clipboard and can be directly pasted into Anki.
+You can now use the hotkey to record any audio playing on your computer. Press the hotkey to start recording and press
+it again to finish. The result will be copied to your clipboard and can be directly pasted into Anki.
 
 <figure>
   <img src="/images/audioexample.gif"/>
 </figure>
 
-You can set up video recording on a separate hotkey if you need that function. If you do that I recommend 'x264 (mp4)' and 'AAC' (not MP3) for maximum compatibility. 
+You can set up video recording on a separate hotkey if you need that function. If you do that I recommend 'x264 (mp4)'
+and 'AAC' (not MP3) for maximum compatibility.
 
 ---
 
 ### Hotkey for OCR
 
-Although extremely flawed, OCR can be useful if you are need to look something up you don't know how to type and are too lazy to draw into the Google translate  handwriting recognition. Somewhat useful in combination with the text hooking page introduced in the [visual novel](visualnovels.md) and [anime sections](minefromanime.md).
+Although extremely flawed, OCR can be useful if you are need to look something up you don't know how to type and are too
+lazy to draw into the Google translate handwriting recognition. Somewhat useful in combination with the text hooking
+page introduced in the [visual novel](visualnovels.md) and [anime sections](minefromanime.md).
 
 1. Hotkey settings → Add → Task: Text capture (OCR)
 2. Go to 'Capture' → Tick 'Overwrite capture settings'
 3. Go to 'OCR' → Default language: Japanese → Tick 'Process OCR silently'
 4. Click on 'none' and assign a key combination to it
-   
+
 <figure>
   <img src="/images/setupocr.gif" width="600"/>
 </figure>
@@ -136,7 +148,8 @@ Although extremely flawed, OCR can be useful if you are need to look something u
   <img src="/images/ocrpermission.jpg"/>
 </figure>
 
-You can now use the OCR hotkey to capture Japanese text, which then gets copied to your clipboard. However it should be said that for Anki cards it is generally preferable to simply screenshot the textbox you want to mine.
+You can now use the OCR hotkey to capture Japanese text, which then gets copied to your clipboard. However it should be
+said that for Anki cards it is generally preferable to simply screenshot the textbox you want to mine.
 
 ---
 
@@ -149,7 +162,8 @@ You can now use the OCR hotkey to capture Japanese text, which then gets copied 
 First follow the instructions as described here, so the correct recording device is set:
 <https://askubuntu.com/a/1051240/392897>
 
-Then put the following in a script and bind it to any key with your DE. Press once to start recording, a second time to stop, then Ctrl+V into an Anki field. Obviously you will need to have xclip and ffmpeg installed.
+Then put the following in a script and bind it to any key with your DE. Press once to start recording, a second time to
+stop, then Ctrl+V into an Anki field. Obviously you will need to have xclip and ffmpeg installed.
 
 ```
 #!/bin/bash
@@ -193,19 +207,21 @@ else
   killall recordAudioToggle # Name of this script, TODO handle this better
 fi
 ```
+
 ---
 
 ### Taking screenshots
 
 Pick a tool you like here: <https://wiki.archlinux.org/title/Screen_capture>
 
-Your DE may already provide a tool to take screenshots. For example if you are using XFCE4 you can use `xfce4-screenshooter`. Just make sure you can save the screenshot to your clipboard, so you can paste it in Anki.
+Your DE may already provide a tool to take screenshots. For example if you are using XFCE4 you can
+use `xfce4-screenshooter`. Just make sure you can save the screenshot to your clipboard, so you can paste it in Anki.
 
 ---
 
 ### AMES
 
-If you prefer the process to be more automated you can check out ames. 
+If you prefer the process to be more automated you can check out ames.
 <https://github.com/eshrh/ames>
 
 ---
