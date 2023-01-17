@@ -217,7 +217,8 @@ can also try QEMU/KVM, which offers vastly superior VM performance.
 Installation blows the scope of this guide, but everything you can do on VirtualBox is also possible here, so go ahead
 and try it. Useful links:
 
-https://wiki.archlinux.org/title/Libvirt
-https://leduccc.medium.com/improving-the-performance-of-a-windows-10-guest-on-qemu-a5b3f54d9cf5
+<https://wiki.archlinux.org/title/Libvirt>
+
+<https://leduccc.medium.com/improving-the-performance-of-a-windows-10-guest-on-qemu-a5b3f54d9cf5>
 
 

@@ -23,11 +23,16 @@ All steps are applicable to both Windows and Linux. All software is free. No pai
 --- 
 
 If you would like to suggest changes or updates feel free to make a PR on
-GitHub: <https://github.com/friedrich-de/AnimecardsWebsite>.
+GitHub: 
+
+<https://github.com/friedrich-de/AnimecardsWebsite>.
 
 --- 
 
 **NEW UPDATE CARD FORMAT WITH DEFAULT HANDLEBARS**
+
 Check it out:
-https://ankiweb.net/shared/info/151553357
-https://github.com/friedrich-de/Basic-Mining-Deck
+
+[AnkiWeb](https://ankiweb.net/shared/info/151553357)
+
+[GitHub](https://github.com/friedrich-de/Basic-Mining-Deck)
