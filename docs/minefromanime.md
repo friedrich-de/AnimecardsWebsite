@@ -17,6 +17,12 @@ video demonstration:
 
 ---
 
+### New video tutorial by Anacreon
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wSexzzsJSqA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
 ### Requirements
 
 1. A [mining deck set up with Yomichan](yomichansetup.md) (you can find a template deck you can
