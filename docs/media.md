@@ -155,73 +155,10 @@ said that for Anki cards it is generally preferable to simply screenshot the tex
 
 ## Linux
 
-### Recording Audio
+### AMES For Automating Screenshots & Audio Recording
 
-> Credits to salamander from the Discord
+ames automates the process of taking screenshots and recording audio, then updating your latest Anki card via Ankiconnect. It works on all Wayland and Xorg compositors.
 
-First follow the instructions as described here, so the correct recording device is set:
-<https://askubuntu.com/a/1051240/392897>
-
-Then put the following in a script and bind it to any key with your DE. Press once to start recording, a second time to
-stop, then Ctrl+V into an Anki field. You will need to have `xclip` and `ffmpeg` installed.
-
-```
-#!/bin/bash
-
-# To record desktop audio instead of mic:
-# https://askubuntu.com/a/1051240/392897
-
-recordingToggle="/tmp/ffmpeg-recording-audio"
-
-if [[ "$1" == "-s" ]] && [[ -n "$2" ]]; then
-  SLEEPS="$2"
-fi
-
-if [[ ! -f /tmp/ffmpeg-recording-audio ]]; then
-  # Not recording
-  audioFile=$(mktemp /tmp/ffmpeg-recording.XXXXXX.mp3)
-  echo "$audioFile" > "$recordingToggle"
-
-  if [[ -n "$SLEEPS" ]]; then
-    echo "Recording in ${SLEEPS}s..."
-    sleep "$SLEEPS"
-  fi
-
-  notify-send --hint=int:transient:1 -t 300 -u normal "Recording audio..."
-  # Record to mp3 and remove silence
-  ffmpeg -f pulse -i default -ac 2 -af silenceremove=1:0:-50dB -acodec libmp3lame -ab 320k -y "$audioFile" 1>/dev/null
-else
-  # Already recording
-  audioFile="$(cat "$recordingToggle")"
-
-  echo "$audioFile"
-  rm "$recordingToggle"
-
-  killall -INT ffmpeg -s 2
-  # Copy file path to clipboard in a way that allows the file to be
-  # pasted in some GUI apps.
-  echo -n "file://${audioFile}" | xclip -sel c -t text/uri-list
-
-  notify-send --hint=int:transient:1 -t 300 -u normal "Copied audio file to clipboard."
-
-  killall recordAudioToggle # Name of this script, TODO handle this better
-fi
-```
-
----
-
-### Taking screenshots
-
-Pick a tool you like here: <https://wiki.archlinux.org/title/Screen_capture>
-
-Your DE may already provide a tool to take screenshots. For example if you are using XFCE4 you can
-use `xfce4-screenshooter`. Just make sure you can save the screenshot to your clipboard, so you can paste it in Anki.
-
----
-
-### AMES
-
-If you prefer the process to be more automated you can check out ames.
-<https://github.com/eshrh/ames>
+You can install it from here: <https://github.com/eshrh/ames>
 
 ---
