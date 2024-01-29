@@ -163,6 +163,13 @@ words in your deck when you mine with Yomichan and if you do find unvoiced thing
 
 ---
 
+### [Local Audio Server for Yomichan](https://github.com/themoeway/local-audio-yomichan)
+
+A plugin that allows for instant offline card creation and audio fetching from a multitude of sources. The forvo audio in this
+plugin has a limited number of users so it is recommended to run it alongside the online version of the forvo server.
+
+---
+
 ### [Awesome TTS](https://ankiweb.net/shared/info/1436550454)
 
 The best plugin out there if you need TTS in Anki. Sadly most of the free options sound terrible. The two best options
