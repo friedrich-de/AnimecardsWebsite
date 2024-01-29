@@ -18,7 +18,7 @@ theme:
 plugins:
     - redirects:
         redirect_maps:
-            'discord.md': 'https://discord.gg/mFZ3WEGzN2'
+            'discord.md': 'https://discord.gg/Z48Pb4dTA7'
             'discord_offtopic.md': 'https://discord.gg/EccG7cMDdN'
     - search
 
