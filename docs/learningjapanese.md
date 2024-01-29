@@ -18,7 +18,7 @@ of interacting with them in meaningful contexts.
 
 Recommended tools:
 
-1. [A simple kana recognition tool on the itazura site.](https://itazuraneko.neocities.org/learn/kana.html "Kana recognition tools")
+1. [A simple kana recognition tool.](https://djtguide.neocities.org/kana/ "Kana recognition tools")
    Be sure to listen to the audio to get the correct pronunciation.
 2. [A kana recognition Anki deck with mnemonics.](https://ankiweb.net/shared/info/2141155567 "Kana recognition deck")
    If you don't know what Anki is or how to set it up take a look at the Anki section.
