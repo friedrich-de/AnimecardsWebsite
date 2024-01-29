@@ -10,6 +10,9 @@ hide:
 
 # Preface
 
+### 2024-01-29: The contents of this site are currently rather outdated. It's still useful for the ideas it presents and some tools like the writing deck. Feel free to join the Discord and ask for other/more updated guides though. I'll get around to updating the information presented here in the near future (in which case this message will no longer be displayed here).
+
+
 This site will introduce you to basic methods to learn Japanese and useful, community-approved tools you can use in the
 process.
 It is directed at people who want to learn Japanese efficiently through **self-study** and have a **passion for Japanese
