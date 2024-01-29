@@ -20,7 +20,7 @@ Recommended tools:
 
 1. [A simple kana recognition tool.](https://djtguide.neocities.org/kana/ "Kana recognition tools")
    Be sure to listen to the audio to get the correct pronunciation.
-2. [A kana recognition Anki deck with mnemonics.](https://ankiweb.net/shared/info/2141155567 "Kana recognition deck")
+2. [A kana recognition Anki deck with mnemonics.](https://ankiweb.net/shared/info/1133476087 "Kana recognition deck")
    If you don't know what Anki is or how to set it up take a look at the Anki section.
    If you also want to have writing cards you
    can [create a new card type](https://apps.ankiweb.net/docs/manual20.html#adding-a-note-type) for that.
