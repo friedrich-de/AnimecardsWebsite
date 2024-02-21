@@ -10,7 +10,7 @@ hide:
 
 # Preface
 
-### 2024-01-29: The contents of this site are currently rather outdated. It's still useful for the ideas it presents and some tools like the writing deck. Feel free to join the Discord and ask for other/more updated guides though. I'll get around to updating the information presented here in the near future (in which case this message will no longer be displayed here).
+### 2024-02-24: The contents of this site are currently a bit outdated. It's still useful for the ideas it presents and some of the tools presented here so feel free to still use it. There will be some updates soon with new tools and resources presented here. Have any suggestions? Write me an email (qmanimecards@gmail.com) or make a contribution on GitHub: https://github.com/friedrich-de/AnimecardsWebsite and it will be integrated in the update.
 
 
 This site will introduce you to basic methods to learn Japanese and useful, community-approved tools you can use in the
@@ -25,14 +25,7 @@ All steps are applicable to both Windows and Linux. All software is free. No pai
 
 --- 
 
-If you would like to suggest changes or updates feel free to make a PR on
-GitHub: 
-
-<https://github.com/friedrich-de/AnimecardsWebsite>.
-
---- 
-
-**NEW UPDATE CARD FORMAT WITH DEFAULT HANDLEBARS**
+**NEW UPDATED CARD FORMAT WITH DEFAULT HANDLEBARS**
 
 Check it out:
 
