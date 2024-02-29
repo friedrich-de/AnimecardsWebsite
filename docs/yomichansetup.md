@@ -1,8 +1,10 @@
-# Setting up Yomichan
+# Setting up Yomichan/Yomitan
 
-Yomichan is a web browser extension with a pop-up dictionary function that also lets you create Anki flashcards.
+**Disclaimer: [Yomichan](https://foosoft.net/projects/yomichan/) is no longer maintained. A new fork called [Yomitan](https://github.com/themoeway/yomitan) has emerged to fix most of the bugs Yomichan still had and to enable the Manifest V3 transition that will make Yomichan unusable on Chrome. Moving forward, it is recommended to switch over to Yomitan.**
+
+Yomitan is a web browser extension with a pop-up dictionary function that also lets you create Anki flashcards.
 Creating your own flashcards using Japanese content you are consuming is what people refer to as 'mining'. The
-remarkable thing about Yomichan is the amount of customizability it offers as well as the support for a variety of
+remarkable thing about Yomitan is the amount of customizability it offers as well as the support for a variety of
 Japanese dictionary.
 
 If you haven't done, so already you should verify you are using
@@ -14,11 +16,11 @@ a [Japanese font and not a Chinese one](https://learnjapanese.moe/font/).
 
 ---
 
-## Install Yomichan
+## Install Yomitan
 
-Chrome: <https://chrome.google.com/webstore/detail/yomichan/ogmnaimimemjmbakcfefmnahgdfhfami>
+Chrome: <https://chromewebstore.google.com/detail/likgccmbimhjbgkjambclfkhldnlhbnn>
 
-Firefox: <https://addons.mozilla.org/en-US/firefox/addon/yomichan/>
+Firefox: <https://addons.mozilla.org/en-US/firefox/addon/yomitan/>
 
 After reading the usage guide and getting familiar with basic functionality you can deactivate the 'Show usage guide on
 startup'.
@@ -29,15 +31,15 @@ startup'.
 
 AnkiConnect: <https://ankiweb.net/shared/info/2055492159>
 
-In order to let Yomichan interact with Anki you need the AnkiConnect plugin.
+In order to let Yomitan interact with Anki you need the AnkiConnect plugin.
 
 Tools → Add-ons → Get Add-ons → Code: 2055492159 → OK → Restart Anki after installation
 
 ---
 
-## Install dictionaries for Yomichan
+## Install dictionaries for Yomitan
 
-Yomichan supports a number of different dictionaries a couple of which you can
+Yomitan supports a number of different dictionaries a couple of which you can
 find [here](https://foosoft.net/projects/yomichan/index.html#dictionaries). I recommend you start by installing the
 following:
 
@@ -47,11 +49,11 @@ following:
 
 <figure>
   <img src="/images/installdictionary.gif" width="300"/>
-  <figcaption>Importing a dictionary into Yomichan.</figcaption>
+  <figcaption>Importing a dictionary into Yomichan/Yomitan.</figcaption>
 </figure>
 
 If you want to import your own dictionaries you can
-use [Yomichan Import](https://foosoft.net/projects/yomichan-import/). This tool makes it easy to get an updated version
+use [Yomitan Import](https://github.com/themoeway/yomitan-import). This tool makes it easy to get an updated version
 of JMdict for example.
 
 ---
@@ -110,7 +112,7 @@ The final popup might look something like this:
 
 <figure>
   <img src="/images/yomichanentry.jpg" width="500"/>
-  <figcaption>Yomichan scan.</figcaption>
+  <figcaption>Yomitan scan.</figcaption>
 </figure>
 
 ---
@@ -118,14 +120,14 @@ The final popup might look something like this:
 ## Additional settings
 
 You should change the `Maximum number of child popups` to something other than zero. This enables you scan
-words inside the Yomichan popup. Very useful when combined with J-J dictionaries. You have to tick 
+words inside the Yomitan popup. Very useful when combined with J-J dictionaries. You have to tick 
 `Allow scanning popup content` first to see this option.
 
 ![Additional results in Yomichan](images/additionalresults.jpg)
 
 ---
 
-## Connect Yomichan and Anki
+## Connect Yomitan and Anki
 
 Tick 'Enable Anki integration'.
 
@@ -145,13 +147,13 @@ Handlebars no longer have to be edited with the new card format.
 
 ### Card Configuration
 
-See [GitHub page](https://github.com/friedrich-de/Basic-Mining-Deck) for the recommended Yomichan fields/templates.
+See [GitHub page](https://github.com/friedrich-de/Basic-Mining-Deck) for the recommended Yomichan/Yomitan fields/templates.
 
 ---
 
 ## Result
 
-You can now very easily create basic word cards by hovering over a word with Yomichan and pressing the + button. If
+You can now very easily create basic word cards by hovering over a word with Yomitan and pressing the + button. If
 pitch accent information is available it will also be present.
 
 
