@@ -25,7 +25,7 @@ video demonstration:
 
 ### Requirements
 
-1. A [mining deck set up with Yomichan](yomichansetup.md) (you can find a template deck you can
+1. A [mining deck set up with Yomitan](yomichansetup.md) (you can find a template deck you can
    use [here](https://ankiweb.net/shared/info/151553357)).
 2. The mpv player. <p>mpv ([get it here if you are on Windows](https://mpv.io/)) is a free video player with great scripting capabilities.</p>
 3. The script itself. The newest version can always be found
@@ -36,7 +36,7 @@ video demonstration:
    or [Firefox](https://addons.mozilla.org/ja/firefox/addon/clipboard-inserter/)) (also useful for visual novels).
 5. **(Linux users only)** Make sure xclip and curl are installed.
 
-Ensure Yomichan (and the clipboard plugin too) have access to file URLs otherwise Yomichan can't capture text from the
+Ensure Yomitan (and the clipboard plugin too) have access to file URLs otherwise Yomitan can't capture text from the
 text hooking page.
 <figure>
   <img src="/images/yomichanaccess.jpg"/>
@@ -89,12 +89,12 @@ would set `local AUTOPLAY_AUDIO = true` but that is mere preference.
    html page linked above (or <a href="/assets/hZ4sawL4.html" download>here</a>) as other pages may add symbols that
    break the script on certain browsers.</p>
 2. Open your anime with mpv and Japanese subtitle. <p>The subtitles will appear on the html page and you can scan them
-   with Yomichan.
+   with Yomitan.
    <video controls>
     <source src="/video/clipboardmpv.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
-3. When there is a word you want to mine, [create a card with Yomichan](yomichansetup.md).
+3. When there is a word you want to mine, [create a card with Yomitan](yomichansetup.md).
 4. Select the entire sentence/section you want to have as context on your card and copy it.
 5. Go back into the mpv window and press Ctrl + v <p>A notification should appear saying that the card got updated. The
    card should now be updated.
@@ -127,7 +127,7 @@ ngen update
 ## Animebook
 
 [Animebook](https://github.com/animebook/animebook.github.io) is a web video player that displays subtitles next to the
-video played. The advantage is that you can look up the subtitles directly on the video with Yomichan and that they are
+video played. The advantage is that you can look up the subtitles directly on the video with Yomitan and that they are
 displayed next to the video so you don't have to alt tab, but less video formats are supported (although this shouldn't
 be a problem if you are using a Chromium build with extended codecs).
 
@@ -137,7 +137,7 @@ be a problem if you are using a Chromium build with extended codecs).
 
 - For a full overview of video compatibility see
   here: <https://github.com/animebook/animebook.github.io#video-format-support>
-- If you don't have Yomichan setup yet with a mined card format see the [Yomichan setup section](yomichansetup.md).
+- If you don't have Yomitan setup yet with a mined card format see the [Yomitan setup section](yomichansetup.md).
 
 ---
 
@@ -149,7 +149,7 @@ the [extension page](https://chrome.google.com/webstore/detail/animebook-anki-ex
 
 ### Usage without Animebook extension
 
-1. Mine a word using Yomichan
+1. Mine a word using Yomitan
 2. Copy the sentence and paste it into the sentence field
 3. Use the sidebar and click on where you would like to start capturing the audio from
 4. Record the audio using ShareX (or equivalent) and paste it into the audio field

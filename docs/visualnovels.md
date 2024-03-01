@@ -2,11 +2,11 @@
 
 Visual novels are possibly the best resource to learn from. The combination of written Japanese and voiced text and
 dialogue makes them a good resource both for beginners and advanced learners and most importantly, they are fun. In this
-section I will show you how to extract the text from a visual novel and use Yomichan and ShareX to 'mine' them.
+section I will show you how to extract the text from a visual novel and use Yomitan and ShareX to 'mine' them.
 
 - If you don't have tools set up to capture audio and screenshots yet take a look at
   the [Handling Media section](media.md).
-- If you don't have a mined deck set up with Yomichan yet see the [Yomichan setup page](yomichansetup.md)
+- If you don't have a mined deck set up with Yomitan yet see the [Yomitan setup page](yomichansetup.md)
 
 ---
 
@@ -33,7 +33,7 @@ time). There are cases where it is useful however. Basic usage of it is detailed
 
 ## HTML Page and Clipboard inserter
 
-To make use of the extracted text to do lookups and create flashcards with Yomichan we utilize an empty html page with a
+To make use of the extracted text to do lookups and create flashcards with Yomitan we utilize an empty html page with a
 plugin that pastes our clipboard into it.
 
 Get the plugin here:
@@ -74,7 +74,7 @@ into Anki and it appears in the html page!
 
 You can now mine from visual novels:
 
-1. Identify a word you want to mine and create a card with Yomichan
+1. Identify a word you want to mine and create a card with Yomitan
 2. Paste the text that is inside your clipboard into Anki
 3. Record the audio and paste it into the audio field
 4. Take a screenshot and paste it into the picture field
@@ -205,8 +205,8 @@ modes to find what best works for you. I recommend `View -> Full-screen mode`. T
 this up once for every VN! Once you close the VN simply tick `Save machine state` and you will be right back when you
 were next time you launch the VM.
 
-Reading the VN and utilizing Textractor on the VM, you can Yomichan scan in the hooking window on your host machine and
-mine unknown words with Yomichan to Anki. Enjoy!
+Reading the VN and utilizing Textractor on the VM, you can Yomitan scan in the hooking window on your host machine and
+mine unknown words with Yomitan to Anki. Enjoy!
 
 ## Reading visual novels on Linux | Alternatives
 

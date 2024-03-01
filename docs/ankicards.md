@@ -164,7 +164,7 @@ Some words will only appear in certain expressions. As this context will be iden
 will see the word, it is fine to include it as a hint.
 
 As for the reason why you wouldn't mine the entire expression in the first place: they might not have entries in
-Japanese to Japanese dictionaries and may not be voiced in the Yomichan audio.
+Japanese to Japanese dictionaries and may not be voiced in the Yomitan audio.
 
 <figure>
   <img src="/images/expressions.jpg"/>

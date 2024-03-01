@@ -134,7 +134,7 @@ between looking things up and ignoring them, so you do end up learning a fair am
 frustrated having to look something up every line.
 
 My personal recommendation for easy content at this stage is anime with Japanese subtitles. See
-the [Yomichan](yomichansetup.md) and [anime section](ankisetup.md) on ways to easily look things up and possibly mine.
+the [Yomitan](yomichansetup.md) and [anime section](ankisetup.md) on ways to easily look things up and possibly mine.
 
 <figure>
   <img src="/images/tv_boy_tooku.png" width="300">

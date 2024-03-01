@@ -159,7 +159,7 @@ The other solutions are outdated. Use Straight Rewards.
 ### [Yomichan Forvo Server](https://ankiweb.net/shared/info/580654285)
 
 A plugin that makes getting audio from Forvo into Anki incredibly simple. Using this there will be almost no unvoiced
-words in your deck when you mine with Yomichan and if you do find unvoiced things you can add them to Forvo yourself.
+words in your deck when you mine with Yomitan/Yomichan and if you do find unvoiced things you can add them to Forvo yourself.
 
 ---
 
@@ -205,9 +205,11 @@ rather than the 'again count'.
 
 ---
 
-### [Kanji Grid](https://ankiweb.net/shared/info/909972618)
+### [Kanji Grid Kuuube](https://ankiweb.net/shared/info/1610304449)
 
-Want to know how many kanji you know? This addons scans your cards for kanji and displays them in a nice looking grid.
+[comment]: <> (This version of Kanji Grid is compatible with the newer Anki versions unlike the original and adds more functionality to it. We should probably replace the picture but I do not have the animecards anki deck setup like in the picture.)
+
+Want to know how many kanji you know? This addon scans your cards for kanji and displays them in a nice looking grid.
 Also has several sorting options such as school grades or JLPT. Be sure to limit the options to the deck and the field
 that you are actually learning from or results might be skewed.
 
