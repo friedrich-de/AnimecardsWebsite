@@ -10,7 +10,7 @@ hide:
 
 # Preface
 
-### 2024-02-24: The contents of this site are currently a bit outdated. It's still useful for the ideas it presents and some of the tools presented here so feel free to still use it. There will be some updates soon with new tools and resources presented here. Have any suggestions? Write me an email (qmanimecards@gmail.com) or make a contribution on GitHub: https://github.com/friedrich-de/AnimecardsWebsite and it will be integrated in the update.
+### 2024-02-24: The contents of this site are currently a bit outdated. It's still useful for the ideas it presents and some of the tools presented here so feel free to still use it. There will be some updates soon with new tools and resources. Have any suggestions? Write me an email (qmanimecards@gmail.com) or make a contribution on GitHub: https://github.com/friedrich-de/AnimecardsWebsite and it will be integrated in the update.
 
 
 This site will introduce you to basic methods to learn Japanese and useful, community-approved tools you can use in the
