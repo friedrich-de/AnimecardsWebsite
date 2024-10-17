@@ -75,6 +75,18 @@ only grow very slowly if you don't fix the ease function in any way.
 
 ---
 
+### Display order
+
+**New/review order:** `Select before reviews`. Selecting another setting won't make or break anything, but I prefer this one as it
+means the 5 minute step on new cards will make it come up again during the main reviews. This causes a small repetition
+effect which I think is useful.
+
+<figure>
+  <img src="../images/display_order.png"/>
+</figure>
+
+---
+
 ### Advanced & FSRS
 
 **Anki algorithm update (10-2024):** A new SRS algorithm has been integrated into Anki, which is an objective improvement to the previous one.
