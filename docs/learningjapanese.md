@@ -52,10 +52,11 @@ to two things:
 
 Recommendations:
 
-1. [Improved Core 2.3K.](https://anacreondjt.gitlab.io/docs/coredeck/ "Core2.3k") This is a modified version for the
-   popular Core6k deck with quite a number of improvements.
-2. Open to suggestions for more, although most decks I have seen have a big issue in one way or another which prevents
-   me from recommending them.
+1. [Kaishi 1.5K.](https://ankiweb.net/shared/info/1196762551) A modern and actively maintained small core deck. 
+   It's a definite improvement over the old Core2k/6k/10k decks and has some customizability. See on [GitHub](https://github.com/donkuri/Kaishi).
+2. [Improved Core 2.3K.](https://anacreondjt.gitlab.io/docs/coredeck/ "Core2.3k") This is a modified version for the
+   popular Core6k deck with a numer of improvements, but a bit outdated now and not actively maintained. For beginners
+   starting from scratch I recommend the Kaishi deck.
 
 <figure>
     <video controls preload="metadata">
