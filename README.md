@@ -1,10 +1,13 @@
 # Doc files for animecards.site
 
-These are the doc files for [animecards.site](https://animecards.site), a basic guide and outline to learning Japanese utilizing Japanese media. 
-Feel free to suggest additions.
+[![Deploy MkDocs Site](https://github.com/friedrich-de/AnimecardsWebsite/actions/workflows/deploy-site.yml/badge.svg)](https://github.com/friedrich-de/AnimecardsWebsite/actions/workflows/deploy-site.yml)
 
-The site needs the following packages which can be installed with pip:
+These are the doc files for [animecards.site](https://animecards.site), a basic guide and outline to learning Japanese utilizing Japanese media using community recommended tools. 
 
-- mkdocs
-- mkdocs-material
-- mkdocs-redirects
+How to contribute:
+
+- Create an issue with suggestions.
+
+OR
+
+- Copy the repository, edit the docs and make a pull request. Feel free to credit yourself.
