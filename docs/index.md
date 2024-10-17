@@ -18,7 +18,7 @@ process.
 It is directed at people who want to learn Japanese efficiently through **self-study** and have a **passion for Japanese
 media** such as anime, manga and visual novels.
 
-If you have questions of any sort feel free to ask in the #beginner-questions chanel of the [Discord
+If you have questions of any sort feel free to ask in the #beginner-questions channel of the [Discord
 server](https://animecards.site/discord/) or check out the [contact page](support.md) for more ways to contact me.
 
 All steps are applicable to both Windows and Linux. All software is free. No paid products or services are offered.
