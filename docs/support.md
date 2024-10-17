@@ -4,6 +4,6 @@ Most of the content is written by QM from the [DJT Thread](https://boards.4chann
 
 Email: <qmanimecards@gmail.com>
 
-If you would like me to add or comment on something either write me an email or even better make an issue on GitHub: https://github.com/friedrich-de/AnimecardsWebsite
+If you would like me to add or comment on something either write me an email or even better make an issue on [GitHub](https://github.com/friedrich-de/AnimecardsWebsite).
 
 The site was made with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/ "Material for MkDocs website") (originally intended for code documentation).
