@@ -11,7 +11,7 @@ If you haven't done, so already you should verify you are using
 a [Japanese font and not a Chinese one](https://learnjapanese.moe/font/).
 
 <figure>
-  <img src="images/kokugo.png" width="200"/>
+  <img src="../images/kokugo.png" width="200"/>
 </figure>
 
 ---
@@ -48,7 +48,7 @@ following:
 - kanjium_pitch_accents.zip
 
 <figure>
-  <img src="images/installdictionary.gif" width="300"/>
+  <img src="../images/installdictionary.gif" width="300"/>
   <figcaption>Importing a dictionary into Yomichan/Yomitan.</figcaption>
 </figure>
 
@@ -104,14 +104,14 @@ the best entries for importing into flashcards. Otherwise, simply use JMdict.
 If you imported all dictionaries and ordered them it should look something like this:
 
 <figure>
-  <img src="images/dictionary_order.png" width="500"/>
+  <img src="../images/dictionary_order.png" width="500"/>
   <figcaption>One possible ordering of dictionaries.</figcaption>
 </figure>
 
 The final popup might look something like this:
 
 <figure>
-  <img src="images/yomichanentry.jpg" width="500"/>
+  <img src="../images/yomichanentry.jpg" width="500"/>
   <figcaption>Yomitan scan.</figcaption>
 </figure>
 
@@ -158,8 +158,8 @@ pitch accent information is available it will also be present.
 
 
 
-<img src="images/miningacard.gif" style="width:60%">
+<img src="../images/miningacard.gif" style="width:60%">
 
 Results in:
 
-<img src="images/wordcard.jpg" style="width:40%">
+<img src="../images/wordcard.jpg" style="width:40%">

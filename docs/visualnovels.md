@@ -22,7 +22,7 @@ version.)
     - Extra Window
 
 <figure>
-  <img src="images/removingextensions.gif" width="600"/>
+  <img src="../images/removingextensions.gif" width="600"/>
 </figure>
 
 You shouldn't use machine translation tools no matter at what stage in your learning you are. They are useless and will
@@ -68,7 +68,7 @@ Now the visual novels text will be copied to our clipboard whenever we advance t
 into Anki and it appears in the html page!
 
 <figure>
-  <img src="images/hookingavn.gif" width="600"/>
+  <img src="../images/hookingavn.gif" width="600"/>
   <figcaption>The final text hooking result.</figcaption>
 </figure>
 
@@ -131,7 +131,7 @@ Things like Furigana may also appear weird, take this for example:
 We can filter this with the following Regex `#(\u007B.*?\u007D)?` and get a much nicer output.
 
 <figure>
-  <img src="images/regexfilter.jpg" width="600"/>
+  <img src="../images/regexfilter.jpg" width="600"/>
   <figcaption>Filtering text with Regex</figcaption>
 </figure>
 
@@ -194,7 +194,7 @@ called [Sharpkeys](https://github.com/randyrants/sharpkeys). After you reboot th
 trigger text skipping.
 
 <figure>
-  <img src="images/sharpkeys.png" width="600"/>
+  <img src="../images/sharpkeys.png" width="600"/>
   <figcaption>Sharpkeys.</figcaption>
 </figure>
 

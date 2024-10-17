@@ -29,7 +29,7 @@ Application settings → Paths → Browse → Select your folder
 This should be somewhere quickly accessible.
 
 <figure>
-  <img src="images/sharexmediafolder.gif" width="600"/>
+  <img src="../images/sharexmediafolder.gif" width="600"/>
 </figure>
 
 You can set custom settings for each hotkey which is what we will do in the following steps.
@@ -44,7 +44,7 @@ Set up a hotkey for screenshots.
 2. Click on 'none' → Define key combination for screenshots
 
 <figure>
-  <img src="images/screenshothotkey.gif" width="600"/>
+  <img src="../images/screenshothotkey.gif" width="600"/>
 </figure>
 
 If you have peripherals with additional keys placing it on one of those is good. Afterwards go back into the hotkey
@@ -55,7 +55,7 @@ settings:
 5. Go to image tab → Tick 'override image settings' → JPEG
 
 <figure>
-  <img src="images/screenshothotkeysettings.gif" width="600"/>
+  <img src="../images/screenshothotkeysettings.gif" width="600"/>
 </figure>
 
 Changing the image format to JPEG will save space on your hard drive and on Ankiweb. We also stop it from pestering you
@@ -65,7 +65,7 @@ You can now use your hotkey to capture an image and paste the result into Anki w
 sites like Discord or 4chan:
 
 <figure>
-  <img src="images/pastingimage.gif" width="600"/>
+  <img src="../images/pastingimage.gif" width="600"/>
   <figcaption>Pasting an image inside Anki.</figcaption>
 </figure>
 
@@ -80,7 +80,7 @@ Set up a hotkey for audio recording.
 3. Click on 'none' → Define key combination for audio recording
 
 <figure>
-  <img src="images/audiohotkey.gif" width="600"/>
+  <img src="../images/audiohotkey.gif" width="600"/>
 </figure>
 
 Now we need configure ffmpeg inside ShareX to record audio:
@@ -92,7 +92,7 @@ Now we need configure ffmpeg inside ShareX to record audio:
 After ffmpeg downloaded a message telling you that ffmpeg was successfully installed should appear.
 
 <figure>
-  <img src="images/overwriteaudio.gif" width="600"/>
+  <img src="../images/overwriteaudio.gif" width="600"/>
 </figure>
 
 - Now click on 'install record devices' and complete the installation
@@ -100,13 +100,13 @@ After ffmpeg downloaded a message telling you that ffmpeg was successfully insta
 'screen-capture-recorder' and 'virtual-audio-capturer' should appear as options for video and audio sources:
 
 <figure>
-  <img src="images/screenrecorders.jpg"/>
+  <img src="../images/screenrecorders.jpg"/>
 </figure>
 
 - Set the video source to 'none' and change the audio codec to MP3
 
 <figure>
-  <img src="images/audiofinal.gif"/>
+  <img src="../images/audiofinal.gif"/>
 </figure>
 
 You can type ffmpeg settings into the command line window to make various adjustments (for example changing the volume
@@ -119,7 +119,7 @@ You can now use the hotkey to record any audio playing on your computer. Press t
 it again to finish. The result will be copied to your clipboard and can be directly pasted into Anki.
 
 <figure>
-  <img src="images/audioexample.gif"/>
+  <img src="../images/audioexample.gif"/>
 </figure>
 
 You can set up video recording on a separate hotkey if you need that function. If you do that I recommend 'x264 (mp4)'
@@ -139,13 +139,13 @@ page introduced in the [visual novel](visualnovels.md) and [anime sections](mine
 4. Click on 'none' and assign a key combination to it
 
 <figure>
-  <img src="images/setupocr.gif" width="600"/>
+  <img src="../images/setupocr.gif" width="600"/>
 </figure>
 
 - The first time you perform an OCR you will asked for permission to upload images to the OCR service. Select yes.
 
 <figure>
-  <img src="images/ocrpermission.jpg"/>
+  <img src="../images/ocrpermission.jpg"/>
 </figure>
 
 You can now use the OCR hotkey to capture Japanese text, which then gets copied to your clipboard. However it should be
