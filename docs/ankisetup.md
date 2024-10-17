@@ -24,12 +24,8 @@ the information in it. For a recognition based Japanese deck I recommend changin
 **Learn ahead limit:** The `learn ahead limit` should be larger than your largest step. I simply set mine to `900` minutes
 .
 
-**Show new cards before reviews:** Selecting another setting won't make or break anything, but I prefer this one as it
-means the 5 minute step on new cards will make it come up again during my main reviews. This causes a small repetition
-effect which I think is useful.
-
 <figure>
-  <img src="../images/preferences.png"/>
+  <img src="../images/preferences_new.png"/>
 </figure>
 
 ---
@@ -55,7 +51,7 @@ preference. Note that 60 minutes doesn't mean you have to wait that amount of ti
 correctly, the cards merely appear at the end of the session.
 
 <figure>
-  <img src="../images/new_cards.png"/>
+  <img src="../images/new_cards_2.png"/>
 </figure>
 
 ---
@@ -74,36 +70,31 @@ normally. Leeches may be a problem with cards that take longer to review, like s
 only grow very slowly if you don't fix the ease function in any way.
 
 <figure>
-  <img src="../images/lapses.png"/>
+  <img src="../images/lapses_2.png"/>
 </figure>
 
 ---
 
-### Advanced
+### Advanced & FSRS
+
+**Anki algorithm update (10-2024):** A new SRS algorithm has been integrated into Anki, which is an objective improvement to the previous one.
+It also solves the 'ease' problem of the previous algorithm. You should therefore enable it.
+
+**Desired retention:** I recommend a solid target retention of `0.90`.
 
 **Maximum interval:** This should be as big as possible. Intervals can never grow beyond the number of days specified
 here. This can break the SRS if not correctly configured and I have seen it happen. `36500` or in other words 10 years
 is a good value.
 
-**Starting ease:** How big of an ease your new cards start with, or in other words with what multiplier the intervals
-increase. The default value of `2.50` is fine, but I prefer that intervals for cards I rarely fail grow faster, so I
-set it to `3.00`. See below for more info on ease.
-
-**Interval modifier:** This is a plain multiplier on the interval length in the spaced repetition system. You can
-initially leave this at `1.00` but if you consistently have high retention and want to do fewer reviews you can
-increase it as you start feeling comfortable with your reviews.
-
-**New interval:** Determines how big the new interval is after you fail a card. The default setting of `0.10` is a bit
-low. That would cause your cards to revert to 10% of the interval they had before lapsing them. A more sensible 
-setting is at least `0.25`. If you fail a card with an interval of 100 days it will go back to 25 days.
-
 <figure>
-  <img src="../images/advanced.png"/>
+  <img src="../images/advanced_2.png"/>
 </figure>
 
 ---
 
 ## The 'ease' problem
+
+### 'ease' should no longer be a problem with the new FSRS algorithm. You only need this if you are not using it.
 
 After starting at whatever ease factor that you set, the ease factor of your cards will continually decrease as
 you fail them or press 'hard' causing the intervals to grow smaller and smaller and reviews to pile up more quickly. The
@@ -111,11 +102,7 @@ only thing you can do about this, in the default configuration of Anki, is to pr
 used to pressing this button, and they shouldn't have to think about whether they want to pass the card normally or
 press 'easy' every time either, as it introduces unnecessary decision thinking time and effort.
 
-### The solution
-
-There are several solutions to this problem, three of which I will detail now:
-
-#### 1. [Straight Rewards](https://ankiweb.net/shared/info/957961234)
+### The solution: [Straight Rewards](https://ankiweb.net/shared/info/957961234)
 
 This is in my opinion the best way to solve this issue. This plugin will increase the ease factor of your cards if you
 continuously manage to pass them, making it by far the least intrusive option listed here, keeping intact the original
@@ -131,26 +118,6 @@ page. There is already sensible default settings if you don't want to modify any
 <figure>
   <img src="../images/straight_rewards.png"/>
 </figure>
-<s>
-
-#### 2. [Auto Ease Factor](https://ankiweb.net/shared/info/1672712021)
-
-Another solution with a lot of people reporting positive results. For me personally this solution is too intrusive and
-messes with ease and intervals in a way I don't understand. If you feel brave however this is another valid option.
-
-#### 3. Set the ease factor to a constant 250%
-
-The idea for a constant ease factor was created by the Mass Immersion Approach (Now "Refold") founders. You can achieve
-this without installing plugins by simply setting the starting ease to 131% and the interval modifier to 191%.
-
-In my opinion this is the least optimal approach because it completely eliminates ease (which is not a bad thing) as a
-factor in your interval time. Each information has an inherent difficult rating associated with it, so it makes sense to
-see harder information more often until you remember it consistently. The important thing however is for the ease factor
-to go back up again, so you do not end up in 'ease hell'. Removing ease entirely and ignoring that aspect inherent to
-every card is in my opinion suboptimal.
-</s>
-
-The other solutions are outdated. Use Straight Rewards.
 
 ---
 
@@ -160,6 +127,8 @@ The other solutions are outdated. Use Straight Rewards.
 
 A plugin that makes getting audio from Forvo into Anki incredibly simple. Using this there will be almost no unvoiced
 words in your deck when you mine with Yomitan/Yomichan and if you do find unvoiced things you can add them to Forvo yourself.
+
+> Possibly broken right now. Check the [GitHub](https://github.com/jamesnicolas/yomichan-forvo-server) current information.
 
 ---
 
@@ -177,13 +146,6 @@ however (Microsoft Azure and Google Cloud TTS) are nearly free for individual us
 card.
 
 > This was written around 2021. There is probably better services by now.
-
----
-
-### [Full Screen Toggle](https://ankiweb.net/shared/info/1612375712)
-
-Doesn't get any simpler than this. Lets you toggle Anki to go into full screen and hide the rest of your screen so
-you can fully immerse in your reviews.
 
 ---
 
@@ -246,6 +208,21 @@ the [writing section](writingjapanese.md).
 </figure>
 
 ---
+
+
+### [AnkiDraw](https://ankiweb.net/shared/info/1868980340)
+
+Lets you draw inside Anki. Useful if you want to write Kanji and have a digital tablet.
+
+<figure>
+  <img src="https://github.com/Rytisgit/Anki-StylusDraw/raw/master/docs/kanjiNewUI.gif"/>
+</figure>
+
+
+### [Opening the same window multiple time](https://ankiweb.net/shared/info/354407385)
+
+This allows you to open multiple editing and card browser windows at the same time. 
+Very good if you want to do some advanced card editing.
 
 ## Suspending ("Retire") cards with a big interval
 
