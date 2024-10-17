@@ -10,7 +10,7 @@ like to discuss methods of doing so in this section.
 learn to write kanji as a beginner and will only get frustrated.**
 
 <figure>
-  <img src="/images/writekanji.png" width="300">
+  <img src="images/writekanji.png" width="300">
 </figure>
 
 ---

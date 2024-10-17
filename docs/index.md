@@ -5,7 +5,7 @@ hide:
 
 ---
 <figure>
-  <img src="/images/text_youkoso.png" width="300"/>
+  <img src="images/text_youkoso.png" width="300"/>
 </figure>
 
 # Preface

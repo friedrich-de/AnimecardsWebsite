@@ -12,7 +12,7 @@ introduction here, after which I will list arguments for why I think the latter 
 Note that this section only discusses formats, not card creation (which is covered later).
 
 <figure>
-  <img src="/images/anki_card.png" width="300"/>
+  <img src="images/anki_card.png" width="300"/>
 </figure>
 
 ---
@@ -32,7 +32,7 @@ Optimally it also contains:
 - Pitch accent information
 
 <figure>
-  <img src="/images/samplesentencecard.jpg"/>
+  <img src="images/samplesentencecard.jpg"/>
 <figcaption>An example sentence card.</figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ Depending on the situation it may contain:
 - A hint field on the front (more on this later)
 
 <figure>
-  <img src="/images/anime_card.png"/>
+  <img src="images/anime_card.png"/>
 <figcaption>An example anime card (made from an anime).</figcaption>
 </figure>
 
@@ -154,7 +154,7 @@ isn't and has to be explicitly mentioned. A couple of examples:
 Of course there are thousands of additional examples.
 
 <figure>
-  <img src="/images/onyomi.jpg"/>
+  <img src="images/onyomi.jpg"/>
 <figcaption>Using the hint field to disambiguate reading.</figcaption>
 </figure>
 
@@ -167,7 +167,7 @@ As for the reason why you wouldn't mine the entire expression in the first place
 Japanese to Japanese dictionaries and may not be voiced in the Yomitan audio.
 
 <figure>
-  <img src="/images/expressions.jpg"/>
+  <img src="images/expressions.jpg"/>
 <figcaption>Using the hint field to detail words appearing in certain expressions.</figcaption>
 </figure>
 
@@ -178,7 +178,7 @@ remember the meaning without a context. To make these cards easier on you, it do
 snipped for clarification:
 
 <figure>
-  <img src="/images/kanawords.jpg"/>
+  <img src="images/kanawords.jpg"/>
 <figcaption>Using the hint field to disambiguate kana words.</figcaption>
 </figure>
 

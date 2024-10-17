@@ -29,7 +29,7 @@ means the 5 minute step on new cards will make it come up again during my main r
 effect which I think is useful.
 
 <figure>
-  <img src="/images/preferences.png"/>
+  <img src="images/preferences.png"/>
 </figure>
 
 ---
@@ -55,7 +55,7 @@ preference. Note that 60 minutes doesn't mean you have to wait that amount of ti
 correctly, the cards merely appear at the end of the session.
 
 <figure>
-  <img src="/images/new_cards.png"/>
+  <img src="images/new_cards.png"/>
 </figure>
 
 ---
@@ -74,7 +74,7 @@ normally. Leeches may be a problem with cards that take longer to review, like s
 only grow very slowly if you don't fix the ease function in any way.
 
 <figure>
-  <img src="/images/lapses.png"/>
+  <img src="images/lapses.png"/>
 </figure>
 
 ---
@@ -98,7 +98,7 @@ low. That would cause your cards to revert to 10% of the interval they had befor
 setting is at least `0.25`. If you fail a card with an interval of 100 days it will go back to 25 days.
 
 <figure>
-  <img src="/images/advanced.png"/>
+  <img src="images/advanced.png"/>
 </figure>
 
 ---
@@ -129,7 +129,7 @@ The setting menu is very easy to understand, and you can calculate settings you 
 page. There is already sensible default settings if you don't want to modify anything, but feel free to copy my settings: 
 
 <figure>
-  <img src="/images/straight_rewards.png"/>
+  <img src="images/straight_rewards.png"/>
 </figure>
 <s>
 
@@ -197,7 +197,7 @@ True retention gives a more meaningful statistics window instead calculating the
 rather than the 'again count'.
 
 <figure>
-  <img src="/images/trueretention.jpg"/>
+  <img src="images/trueretention.jpg"/>
 </figure>
 
 > Note that on versions after 2.1 you have to hold SHIFT before you press on 'stats' to see the effects of this plugin.
@@ -214,12 +214,12 @@ Also has several sorting options such as school grades or JLPT. Be sure to limit
 that you are actually learning from or results might be skewed.
 
 <figure>
-  <img src="/images/kanjigridsettings.jpg"/>
+  <img src="images/kanjigridsettings.jpg"/>
   <figcaption>Correct kanji grid filtering.</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/kanjigrid.jpg"/>
+  <img src="images/kanjigrid.jpg"/>
   <figcaption>Part of the resulting grid.</figcaption>
 </figure>
 
@@ -230,7 +230,7 @@ that you are actually learning from or results might be skewed.
 A plugin that greatly extends the Anki browser, letting you search for and display a ton of additional parameters.
 
 <figure>
-  <img src="/images/advancedbrowser.jpg"/>
+  <img src="images/advancedbrowser.jpg"/>
   <figcaption>A few of the new options.</figcaption>
 </figure>
 
@@ -242,7 +242,7 @@ With this you can generate stroke diagrams on your cards. I used it during the c
 the [writing section](writingjapanese.md).
 
 <figure>
-  <img src="/images/colorizer.jpg"/>
+  <img src="images/colorizer.jpg"/>
 </figure>
 
 ---
@@ -265,7 +265,7 @@ to something greater than 120 days (like 1 year if you prefer). You just have to
 and suspend the cards every few months.
 
 <figure>
-  <img src="/images/retire.png"/>
+  <img src="images/retire.png"/>
   <figcaption>Retiring cards with the card browser search.</figcaption>
 </figure>
 

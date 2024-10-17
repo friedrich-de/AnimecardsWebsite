@@ -26,7 +26,7 @@ Recommended tools:
    can [create a new card type](https://apps.ankiweb.net/docs/manual20.html#adding-a-note-type) for that.
 
 <figure>
-  <img src="/images/scripts.jpg">
+  <img src="images/scripts.jpg">
   <figcaption>Japanese writing systems.</figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ Recommendations:
 
 <figure>
     <video controls preload="metadata">
-    <source src="/video/corecards.mp4" type="video/mp4">
+    <source src="video/corecards.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
     <figcaption>Cards in a core deck. word / translation, reading and example </figcaption>
@@ -115,7 +115,7 @@ Possible resources:
    More questionable ordering than in KKLC. I don't recommend it in particular it but it's popular.
 
 <figure>
-  <img src="/images/eminent.jpg">
+  <img src="images/eminent.jpg">
   <figcaption>RTK mnemonic</figcaption>
 </figure>
 
@@ -137,7 +137,7 @@ My personal recommendation for easy content at this stage is anime with Japanese
 the [Yomitan](yomichansetup.md) and [anime section](ankisetup.md) on ways to easily look things up and possibly mine.
 
 <figure>
-  <img src="/images/tv_boy_tooku.png" width="300">
+  <img src="images/tv_boy_tooku.png" width="300">
   <figcaption>Watch anime.</figcaption>
 </figure>
 

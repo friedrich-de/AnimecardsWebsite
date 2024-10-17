@@ -39,7 +39,7 @@ video demonstration:
 Ensure Yomitan (and the clipboard plugin too) have access to file URLs otherwise Yomitan can't capture text from the
 text hooking page.
 <figure>
-  <img src="/images/yomichanaccess.jpg"/>
+  <img src="images/yomichanaccess.jpg"/>
   <figcaption>Accessible through the 'Manage extensions' options menu.</figcaption>
 </figure>
 
@@ -91,7 +91,7 @@ would set `local AUTOPLAY_AUDIO = true` but that is mere preference.
 2. Open your anime with mpv and Japanese subtitle. <p>The subtitles will appear on the html page and you can scan them
    with Yomitan.
    <video controls>
-    <source src="/video/clipboardmpv.mp4" type="video/mp4">
+    <source src="video/clipboardmpv.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
 3. When there is a word you want to mine, [create a card with Yomitan](yomichansetup.md).
@@ -100,7 +100,7 @@ would set `local AUTOPLAY_AUDIO = true` but that is mere preference.
    card should now be updated.
 
 <figure>
-  <img src="/images/confirmmessage.jpg"/>
+  <img src="images/confirmmessage.jpg"/>
 </figure>
 
 ---
