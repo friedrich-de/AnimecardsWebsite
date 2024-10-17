@@ -1,0 +1,49 @@
+name: Deploy MkDocs Site
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch: 
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Prepare build directory
+        run: |
+          mkdir -p /usr/src/animecards_website_builder/site
+
+      - name: Build Docker image
+        run: |
+          docker build -t animecards_website_builder .
+
+      - name: Build MkDocs site
+        run: |
+          docker run --rm --mount type=bind,source=/usr/src/animecards_website_builder/site,target=/app/site animecards_website_builder
+
+      - name: Upload static files as artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: /usr/src/animecards_website_builder/site
+
+  deploy:
+    needs: build
+
+    permissions:
+      pages: write      
+      id-token: write  
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: self-hosted
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
