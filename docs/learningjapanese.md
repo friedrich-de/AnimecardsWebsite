@@ -1,7 +1,6 @@
-# Introduction to learning Japanese
+# A Guide to Learning Japanese
 
-This page will list the most important steps anyone who wishes to learn Japanese needs to take and how to go about
-tackling them. All steps are divided into 3 major sections:
+This page outlines the essential steps for learning Japanese. These steps are divided into three main sections:
 
 ---
 
@@ -9,24 +8,15 @@ tackling them. All steps are divided into 3 major sections:
 
 ### Learn Hiragana and Katakana
 
-As you know, the Japanese language has a total of three writing scripts, which are all actively used. Fortunately, two
-of these can be learned in a week or less, and that should be your first priority. Whether you use mnemonics, Anki or
-try to remember them by brute force isn't as important as not wasting too much time on this step. Many people get stuck
-here thinking they need perfection, when in reality they simply need to move on. Remember that Hiragana and Katakana
-will be reinforced whenever you interact with written Japanese in any form and true mastery only comes after many hours
-of interacting with them in meaningful contexts.
+Japanese uses three writing scripts. Fortunately, hiragana and katakana can be learned in a week or less, and mastering them should be your first priority. Whether you use mnemonics, Anki, or rote memorization isn't as important as avoiding getting bogged down at this stage. Don't strive for perfection; aim to move forward. Hiragana and katakana will be reinforced through exposure to written Japanese, and true mastery comes with practice in meaningful contexts.
 
 Recommended tools:
 
-1. [A simple kana recognition tool.](https://djtguide.neocities.org/kana/ "Kana recognition tools")
-   Be sure to listen to the audio to get the correct pronunciation.
-2. [A kana recognition Anki deck with mnemonics.](https://ankiweb.net/shared/info/1133476087 "Kana recognition deck")
-   If you don't know what Anki is or how to set it up take a look at the Anki section.
-   If you also want to have writing cards you
-   can [create a new card type](https://apps.ankiweb.net/docs/manual20.html#adding-a-note-type) for that.
+1.  [Kana recognition tool](https://djtguide.neocities.org/kana/ "Kana recognition tools"). Listen to the audio for correct pronunciation.
+2.  [Kana recognition Anki deck with mnemonics](https://ankiweb.net/shared/info/1133476087 "Kana recognition deck"). If you're new to Anki, see the Anki section for setup instructions. You can also [create a new card type](https://docs.ankiweb.net/editing.html#adding-a-note-type) for writing practice.
 
 <figure>
-  <img src="../images/scripts.jpg">
+  <img src="../images/scripts.jpg" alt="Japanese writing systems">
   <figcaption>Japanese writing systems.</figcaption>
 </figure>
 
@@ -34,129 +24,77 @@ Recommended tools:
 
 ---
 
-## 2. Building the foundation
+## 2. Building the Foundation
 
-All steps in this section should be done in parallel. Don't get stuck on doing one thing, neglecting the others.
+Work on all steps in this section concurrently. Avoid focusing on one to the exclusion of others.
 
-### Work through a core vocabulary Anki deck
+### Use a Core Vocabulary Anki Deck
 
-It makes sense to go through a core deck to get the most important words of the language out of the way. There are many
-options and what you pick isn't that important as most core decks share many similarities, but you should pay attention
-to two things:
+Using a core deck is a good way to learn the most important words early on. The specific deck you choose isn't crucial, as most core decks are similar. However, consider these points:
 
-- No more than a few thousand cards. It is **critical** to not spend too much time on core decks and move on to mining (
-  explained in detail on this site). That is not happening any time soon if you are doing Core30k.
-- Cards should be voiced. Make no mistake; you are still mostly incapable of correctly perceiving Japanese sounds and
-  only thousands of hours of auditory input will fix that. A core deck with audio by native Japanese is a good way to
-  start.
+-   Choose a deck with no more than a few thousand cards. It's important to avoid spending too much time on core decks and move on to mining (explained later). This won't happen if you're using a Core30k deck.
+-   Ensure the cards have audio. You'll need extensive auditory input to truly grasp Japanese sounds. A core deck with native Japanese audio is a good starting point.
 
 Recommendations:
 
-1. [Kaishi 1.5K.](https://ankiweb.net/shared/info/1196762551) A modern and actively maintained small core deck. 
-   It's a definite improvement over the old Core2k/6k/10k decks and has some customizability. See on [GitHub](https://github.com/donkuri/Kaishi).
-2. [Improved Core 2.3K.](https://anacreondjt.gitlab.io/docs/coredeck/ "Core2.3k") This is a modified version for the
-   popular Core6k deck with a numer of improvements, but a bit outdated now and not actively maintained. For beginners
-   starting from scratch I recommend the Kaishi deck.
+1.  [Kaishi 1.5K](https://ankiweb.net/shared/info/1196762551). A modern, actively maintained, small core deck. It's an improvement over older Core2k/6k/10k decks and offers some customizability. See [GitHub](https://github.com/donkuri/Kaishi).
+2.  [Improved Core 2.3K](https://anacreondjt.gitlab.io/docs/coredeck/ "Core2.3k"). A modified version of the popular Core6k deck with improvements, but somewhat outdated and not actively maintained. For beginners, I recommend the Kaishi deck.
 
 <figure>
     <video controls preload="metadata">
     <source src="../video/corecards.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
-    <figcaption>Cards in a core deck. word / translation, reading and example </figcaption>
+    <figcaption>Cards in a core deck: word / translation, reading, and example.</figcaption>
 </figure>
 
-### Gain an understanding of basic Japanese grammar
+### Understand Basic Japanese Grammar
 
-The only way to really learn grammar is by reading and listening, seeing the grammar being used and that happening so
-often that it becomes second nature to you. That also means grammar is never the issue long term, as you will acquire it
-inevitably by simply consuming more content. However, don't make the mistake of thinking that by only consuming content
-you will learn the language. A constant effort from you is required in the form of actively paying attention and
-look-ups in order to make things comprehensible. Therefore, it makes sense to prime yourself on Japanese grammar with
-simple sentences and explanations. Don't bother doing boring conjugation exercises and memorizing every function of
-every grammar point mentioned; you will only waste your time.
+The best way to learn grammar is through reading and listening, observing its usage until it becomes natural. Grammar isn't a long-term issue; you'll acquire it by consuming content. However, don't assume that content consumption alone is sufficient. Active engagement, such as looking up unfamiliar elements, is essential for comprehension. Therefore, familiarize yourself with basic Japanese grammar using simple sentences and explanations. Avoid tedious conjugation exercises and memorizing every function of each grammar point.
 
 Recommendations:
 
-1. [DoJG Deck.](https://dojgdeck.neocities.org/ "Dictionary of Japanese grammar deck") This deck covers the grammar
-   points covered in the dictionary of Japanese
-   grammar [(reference)](https://itazuraneko.neocities.org/grammar/masterreference.html "Japanese grammar reference").
-   It may be called "dictionary" but make no mistake: it doesn't cover any grammar that is particularly rare or belongs
-   to classical Japanese. In other words it is all worth learning at some point. Styling recommendation: Core Sentence
+1.  [DoJG Deck](https://dojgdeck.neocities.org/ "Dictionary of Japanese grammar deck"). This deck covers the grammar points in *A Dictionary of Japanese Grammar* [(reference)](https://gohoneko.neocities.org/grammar/masterreference.html "Japanese grammar reference"). Despite being called a "dictionary," it only covers essential grammar. Styling recommendation: Core Sentence.
+2.  [Tae Kim's Grammar Guide](http://www.guidetojapanese.org/learn/category/grammar-guide/grammar-start/). Praised for its simplicity. Skip the exercises and focus on understanding the explanations. While the author's Japanese level has been questioned and some sentences may be slightly unnatural, it's a good grammar primer.
+3.  [Imabi Grammar Guide](https://www.imabi.net/). The opposite of Tae Kim's guide. The author is knowledgeable and ensures accuracy, but the guide is dense, linguistically heavy, and contains redundant information, making it unsuitable as a grammar primer. Use it as a reference, though you'll likely be able to research most things in Japanese soon.
 
-2. [Tae Kim grammar guide.](http://www.guidetojapanese.org/learn/category/grammar-guide/grammar-start/) Mostly praised
-   for it's simplicity. Don't bother with the exercises and just read and understand it. The author himself has a
-   questionable Japanese level and sometimes includes slightly unnatural sentences, but it's fine for a mere primer on
-   grammar.
+### (Optional) Isolated Kanji Studies
 
-3. [Imabi grammar guide.](https://www.imabi.net/) Suffers from the exact opposite problem of Tae Kim. The author is very
-   knowledgeable about Japanese grammar and verifies the correctness of all information on the site, but it is too heavy
-   in terms of linguistics and way too big in volume with too much redundant information to serve as a primer to
-   Japanese grammar. Feel free to use it as a reference, although you will likely be able to research most things in
-   Japanese very soon.
-
-### (Optional) Isolated kanji studies
-
-By doing a core deck, consuming Japanese content, doing look-ups and mining, you will learn to read Japanese. However,
-many people find it difficult to learn Japanese words with kanji right away. Isolated kanji study refers to associating
-kanji with English meanings through mnemonics. By doing this you can make it easier to remember the meaning of Japanese
-words, as you will have a grasp of the semantic hint of the kanji right away. However, you are investing many hours into
-memorising information that is essentially not relevant to knowing Japanese in any capacity. Whether this is worth the
-time investment is something everyone has to decide for themselves.
+You'll learn to read Japanese by using a core deck, consuming content, looking up words, and mining. However, some find it hard to learn Japanese words with kanji immediately. Isolated kanji study involves associating kanji with English meanings using mnemonics. This can make it easier to remember word meanings by grasping the semantic hint of the kanji. However, this approach requires memorizing information not directly relevant to knowing Japanese. Decide for yourself whether it's worth the time investment.
 
 Possible resources:
 
-1. KKLC (Kodansha kanji learner's course) [(find it here)](https://itazuraneko.neocities.org/library/benkyou.html). It
-   has mnemonics for all kanji and the meanings are closer to the original Japanese ones than RTK's are. Don't bother
-   remembering the vocabulary (do that with core and mining), only the keyword and don't rate yourself harshly. A
-   complementary Anki deck can be found [here](https://ankiweb.net/shared/info/779483253). If it gets frustrating to do
-   at any point feel free to drop it in favor of prioritizing the other points.
-2. RTK (Remembering the Kanji) [(also here)](https://itazuraneko.neocities.org/library/benkyou.html). Outdated and
-   esoteric keywords. Doesn't have mnemonics for all kanji, which are however supplemented by the community around it.
-   More questionable ordering than in KKLC. I don't recommend it in particular it but it's popular.
+1.  KKLC (Kodansha Kanji Learner's Course) [(find it here)](https://gohoneko.neocities.org/library/benkyou.html). It provides mnemonics for all kanji, and the meanings are closer to the original Japanese ones than RTK's. Focus on the keyword, not the vocabulary (learn that through core and mining), and don't be too critical of yourself. A complementary Anki deck is available [here](https://ankiweb.net/shared/info/779483253). If it becomes frustrating, prioritize other points.
+2.  RTK (Remembering the Kanji) [(also here)](https://gohoneko.neocities.org/library/benkyou.html). Outdated and esoteric keywords. It doesn't have mnemonics for all kanji, but the community supplements them. The ordering is more questionable than in KKLC. I don't particularly recommend it, but it's popular.
 
 <figure>
-  <img src="../images/eminent.jpg">
+  <img src="../images/eminent.jpg" alt="RTK mnemonic">
   <figcaption>RTK mnemonic</figcaption>
 </figure>
 
-No matter what you do: **Don't bother writing at this stage.** There are better ways to learn writing. See
-the [writing section](writingjapanese.md) of this site.
+Regardless, **don't focus on writing at this stage.** There are better ways to learn writing. See the [writing section](writingjapanese.md) of this site.
 
-### Regularly consume Japanese content
+### Regularly Consume Japanese Content
 
-The **only** way to learn a language is to get a massive amount of input. There are of course many ways to go about
-getting that input, you will get it every single time you interact with the language in any form, but the most efficient
-is media consumption. Whether it's watching anime, Youtube, listening to audiobooks or podcasts or reading books, if you
-put in the hours you will see results. However it is important to make an effort to make as much of the content as
-possible comprehensible to you (through lookups). Listening to what is essentially white noise all day while playing
-with your phone won't lead to improvement. Start consuming Japanese content at this stage and try to find a balance
-between looking things up and ignoring them, so you do end up learning a fair amount of new things but don't get
-frustrated having to look something up every line.
+The **only** way to truly learn a language is through massive input. You'll get input every time you interact with the language, but media consumption is the most efficient method. Whether you watch anime or YouTube, listen to audiobooks or podcasts, or read books, consistent effort yields results. Make an effort to comprehend as much content as possible through lookups. Listening to what is essentially white noise while using your phone won't lead to improvement. Start consuming Japanese content now and balance looking things up with ignoring them, so you learn new things without getting bogged down.
 
-My personal recommendation for easy content at this stage is anime with Japanese subtitles. See
-the [Yomitan](yomichansetup.md) and [anime section](minefromanime.md) on ways to easily look things up and possibly mine.
+I recommend anime with Japanese subtitles as easy content at this stage. See the [Yomitan](yomichansetup.md) and [anime section](minefromanime.md) for ways to easily look things up and possibly mine.
 
 <figure>
-  <img src="../images/tv_boy_tooku.png" width="300">
+  <img src="../images/tv_boy_tooku.png" width="300" alt="Watch anime">
   <figcaption>Watch anime.</figcaption>
 </figure>
 
-
 #### Recommended time for this section: 6-12 months
+
 ---
 
 ## 3. Finale
 
-### Create your own mining deck
+### Create Your Own Mining Deck
 
-A mining deck is a custom Anki deck created by you, utilizing the Japanese you encounter in your day to day life. Moving
-on from pre-made decks to custom Anki decks is vital. I can't stress how important not getting stuck on pre-made decks
-is.
-At this point you are learning directly from material relevant to you and purposefully targeting gaps in your knowledge.
-For a complete guide on mining look at the next sections of this site.
+A mining deck is a custom Anki deck that you create using the Japanese you encounter daily. Transitioning from pre-made decks to custom decks is vital. Don't get stuck on pre-made decks. At this point, you're learning directly from material relevant to you and targeting gaps in your knowledge. See the following sections for a complete guide on mining.
 
-### Interact with Japanese as much as you can
+### Interact with Japanese as Much as Possible
 
-There are no limits to what you can do. Do whatever you want with Japanese as much as you possibly can. If you at some
-point feel you are good enough, you can also stop doing the mining deck.
+There are no limits to what you can do. Engage with Japanese as much as you can. If you feel proficient enough, you can stop using the mining deck.
