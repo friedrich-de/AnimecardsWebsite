@@ -1,8 +1,7 @@
 # Resync subtitles
 
-Subtitles can be found on [kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F) and on
-the [itazuraneko site](https://itazuraneko.neocities.org/). Sadly, a lot of the time the subtitles you find online and
-your local video files are not in sync.
+Subtitles can be found on [Jimaku](https://jimaku.cc/) and [kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F)
+Sadly, a lot of the time the subtitles you find online and your local video files are not in sync.
 
 ## Automatic resyncing with Alass script
 
