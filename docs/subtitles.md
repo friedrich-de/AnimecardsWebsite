@@ -1,50 +1,53 @@
-# Resync subtitles
+# Resyncing Subtitles
 
-Subtitles can be found on [Jimaku](https://jimaku.cc/) and [kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F)
-Sadly, a lot of the time the subtitles you find online and your local video files are not in sync.
+Subtitles can be found on [Jimaku](https://jimaku.cc/) and [kitsunekko](https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F). Often, subtitles found online are not synchronized with local video files. This guide provides a method to resync subtitles accurately.
 
-## Automatic resyncing with Alass script
+## (Windows Only) Automatic Resyncing with Alass
 
-The easiest way to re-time all subtitles with a high amount of accuracy is to
-use [alass](https://github.com/kaegi/alass). It can account for unexpected splits like commercial breaks and syncs with
-a very high amount of precision. Alass on it's own however is not very easy to use. Thanks to another script made by
-Anacreon from the DJT thread, we can very simply re-time downloaded subtitles to our local files utilizing alass.
+[Alass](https://github.com/kaegi/alass) is a tool that accurately re-times subtitles, even with unexpected splits like commercial breaks. However, it can be thrown off by subtitles not relevant for syncing, such as signs and song lyrics. To address this, a script by Anacreon (from the DJT thread) cleans up subtitles before using Alass.
 
-A video demonstration:
+**Video Demonstration:**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x0h3ooBHrpk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
---- 
+---
 
-### Installation and usage
+### Installation and Usage
 
-1. Download .zip containing the script and all dependencies. The newest version can always be found
-   here: <p><https://mega.nz/folder/W19xUQJT#Ele4MKy-c61AOp2ZaN5AYg></p>
-2. Extract the containing folder and move it to where your video and subtitle files are located. <p>Tip: You can move
-   folders around without any writing happening on your drive, if you right-click and use 'cut' instead of
-   copying.</p> <p>You folder structure should look like this: </p><p>![Folder structure](images/resyncfolder.jpg)</p>
-3. Run the RUN_ME.bat inside the folder.
-4. You will have to select a number of options. You do so by typing the number of the option and pressing enter:
+1.  **Download:** Obtain the script and its dependencies in a .zip file from: <https://mega.nz/folder/W19xUQJT#Ele4MKy-c61AOp2ZaN5AYg>
+2.  **Extract and Move:** Extract the folder from the .zip file and move it to the directory containing your video and subtitle files.
 
-   ![Selection script option](images/selectoption.jpg)
+    *Tip:* Use 'cut' and 'paste' to move folders without writing to the drive.
 
-<br>
+    Your folder structure should resemble this:
 
-- Most subtitle files on kitsunekko are in the .srt format.
-- You should generally re-time using embedded subs as it is vastly more reliable. This also means that you should
-  download shows with English subtitles in them and not 'raws'.
-- Split penalty can be left unchanged most of the time. Only try changing it if a previous sync attempt failed.
+    ![Folder structure](images/resyncfolder.jpg)
+3.  **Run the Script:** Execute `RUN_ME.bat` inside the extracted folder.
+4.  **Select Options:** The script will prompt you to select options by typing the corresponding number and pressing Enter:
 
-The script will now extract all the reference subtitles from the video files. After it is finished, you will be
-presented with an option menu showing you all 'styles' present in the reference subtitles:
+    ![Selection script option](images/selectoption.jpg)
+
+    *   Most subtitles on kitsunekko are in `.srt` format.
+    *   Using embedded subtitles for re-timing is generally more reliable. Download shows with embedded English subtitles instead of "raws".
+    *   The split penalty can usually be left unchanged. Adjust it only if a sync attempt fails.
+
+The script will extract reference subtitles from the video files. Afterward, a menu will display the 'styles' present in the reference subtitles:
 
 ![Subtitle Styles](images/subtitlestyles.jpg)
 
-These styles are used by subtitle creators to mark different kinds of subtitles for different types of content. 'Signs'
-are for example used to translate written text visible on the screen. 'OP/ED' refers to subtitles for the opening and
-the ending. All these additional subtitles have the potential to interfere with the syncing process as they not present
-in our Japanese subtitle. We therefore only select the subtitles we want to be considered during the syncing process. In
-this case [1]Default and [3]Default-alt.
+Subtitle creators use styles to differentiate types of content, such as 'Signs' for on-screen text or 'OP/ED' for opening and ending sequences. These additional subtitles can interfere with syncing. Select only the styles relevant to the main dialogue (e.g., `[1]Default` and `[3]Default-alt` in the example).
 
-After finishing the syncing process we have a batch of correctly timed and renamed subtitles:
+After syncing, you will have a set of correctly timed and renamed subtitles:
+
 ![Syncing Result](images/resyncingsubtitles.jpg)
+
+## (Linux Only) Automatic Resyncing with Alass
+
+Consider using my retimer script which does similar tag cleaning as the Windows script. 
+It's still in early development and may have issues. Feel free to contribute. 
+
+It's available here: <https://github.com/friedrich-de/Advanced-Subtitle-Retimer>
+
+You can also try using Alass [directly](https://github.com/kaegi/alass).
+
+**Note: If you're a developer, please consider creating a platform independent subtitle tool that takes care of everything including subtitle extraction, tag cleaning and syncing.**
