@@ -1,14 +1,10 @@
-# Setting up Yomichan/Yomitan
+# Setting up Yomitan
 
-**Disclaimer: [Yomichan](https://foosoft.net/projects/yomichan/) is no longer maintained. A new fork called [Yomitan](https://github.com/themoeway/yomitan) has emerged to fix most of the bugs Yomichan still had and to enable the Manifest V3 transition that will make Yomichan unusable on Chrome. Moving forward, it is recommended to switch over to Yomitan.**
+**Disclaimer: [Yomichan](https://foosoft.net/projects/yomichan/) is no longer maintained. [Yomitan](https://github.com/themoeway/yomitan) is a fork that fixes bugs and enables Manifest V3 compatibility, which will make Yomichan unusable on Chrome. It is recommended to switch to Yomitan.**
 
-Yomitan is a web browser extension with a pop-up dictionary function that also lets you create Anki flashcards.
-Creating your own flashcards using Japanese content you are consuming is what people refer to as 'mining'. The
-remarkable thing about Yomitan is the amount of customizability it offers as well as the support for a variety of
-Japanese dictionary.
+Yomitan is a browser extension that functions as a pop-up dictionary and allows you to create Anki flashcards. Creating flashcards from Japanese content is often referred to as "mining." Yomitan is highly customizable and supports various Japanese dictionaries.
 
-If you haven't done, so already you should verify you are using
-a [Japanese font and not a Chinese one](https://learnjapanese.moe/font/).
+Before proceeding, ensure that both Anki and your browser are using a [Japanese font](https://learnjapanese.moe/font/) instead of a Chinese one.
 
 <figure>
   <img src="../images/kokugo.png" width="200"/>
@@ -18,97 +14,94 @@ a [Japanese font and not a Chinese one](https://learnjapanese.moe/font/).
 
 ## Install Yomitan
 
-Chrome: <https://chromewebstore.google.com/detail/likgccmbimhjbgkjambclfkhldnlhbnn>
+Chrome: [Chrome Web Store](https://chromewebstore.google.com/detail/likgccmbimhjbgkjambclfkhldnlhbnn)
 
-Firefox: <https://addons.mozilla.org/en-US/firefox/addon/yomitan/>
+Firefox: [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/yomitan/)
 
-After reading the usage guide and getting familiar with basic functionality you can deactivate the 'Show usage guide on
-startup'.
+After installation, you may want to disable the 'Show usage guide on startup' option once you're familiar with the basic functionality.
 
 ---
 
 ## Install AnkiConnect
 
-AnkiConnect: <https://ankiweb.net/shared/info/2055492159>
+AnkiConnect: [AnkiWeb](https://ankiweb.net/shared/info/2055492159)
 
-In order to let Yomitan interact with Anki you need the AnkiConnect plugin.
+Yomitan requires the AnkiConnect plugin to interact with Anki.
 
-Tools → Add-ons → Get Add-ons → Code: 2055492159 → OK → Restart Anki after installation
+In Anki, go to Tools → Add-ons → Get Add-ons and enter the code `2055492159`. Restart Anki after installation.
 
 ---
 
-## Install dictionaries for Yomitan
+## Install Dictionaries for Yomitan
 
-Yomitan supports a number of different dictionaries a couple of which you can
-find [here](https://foosoft.net/projects/yomichan/index.html#dictionaries). I recommend you start by installing the
-following:
+Yomitan supports various dictionaries. Note that Yomitan .zip dictionary files are imported as is and do not need to be extracted.
+You can find a large collection [here](https://github.com/MarvNC/yomitan-dictionaries). Consider starting with these:
 
-- jmdict_english.zip
-- kanjidic_english.zip
-- kanjium_pitch_accents.zip
+-   Jitendex (for English definitions)
+-   KANJIDIC (for invidiual Kanji)
+-   BCCWJ and JPDB frequency dictionaries
+
+Which are all importable through Yomitans `Get recommended dictionaries…` option.
+
+<figure>
+  <img src="../images/yomitan_import.png" width="500"/>
+  <figcaption>Get recommended dictionaries...</figcaption>
+</figure>
+
+Additionally install the following dictionary for pitch accent information:
+
+-   [Daijisen (Pitch)](https://drive.google.com/file/d/13NvR5uQ1zAIpvAcSee0bEEvENILbFGbL/view?usp=drive_link) from [here](https://drive.google.com/drive/folders/1LXMIOoaWASIntlx1w08njNU005lS5lez)
+
 
 <figure>
   <img src="../images/installdictionary.gif" width="300"/>
-  <figcaption>Importing a dictionary into Yomichan/Yomitan.</figcaption>
+  <figcaption>Importing a dictionary into Yomitan.</figcaption>
 </figure>
 
-If you want to import your own dictionaries you can
-use [Yomitan Import](https://github.com/themoeway/yomitan-import). This tool makes it easy to get an updated version
-of JMdict for example.
 
 ---
 
-### Additional dictionaries (J-J)
+### Additional Dictionaries (J-J)
 
-JMDict is a community driven project and the entries only consist of simple translations. For someone who is trying to
-learn Japanese that is simply too limited. Monolingual dictionaries on the other hand are written by professionals and
-provide detailed explanations and usage examples, so it is worth trying to use them as soon as you are capable of doing
-so.
+Jitendex provides simple translations. For advanced learners, monolingual Japanese dictionaries offer detailed explanations and usage examples.
 
-You can find a number of Japanese dictionaries, including all the ones mentioned here,
-[here](https://anacreondjt.gitlab.io/docs/dicts/). For more dictionaries and other resources also check out the [TMW resources
-page](https://learnjapanese.moe/resources/).
+You can find several Japanese dictionaries [here](https://drive.google.com/drive/folders/1tTdLppnqMfVC5otPlX_cs4ixlIgjv_lH) and [here](https://anacreondjt.gitlab.io/docs/dicts/), including those mentioned below. Also, check out the [TMW resources page](https://learnjapanese.moe/resources/) for more dictionaries and resources.
 
-Dictionaries I have been using and I recommend using:
+Recommended dictionaries:
 
 J-E:
 
-- Kenkyusha's New Japanese-English Dictionary
+-   [新和英 Shinwaei](https://drive.google.com/file/d/11zXAthZ2qTe3VNGeuL_R-XLGCsDlXYhP) from [here](https://drive.google.com/drive/folders/1tTdLppnqMfVC5otPlX_cs4ixlIgjv_lH)
 
-J-J:
+J-J (all available [here](https://drive.google.com/drive/folders/1TRylrqtoYi2hW9dAjci5cugNzde_WRTM)):
 
-- 大辞林 Daijirin
-- 大辞泉 Daijisen
-- 明鏡 Meikyou
-- 新明解 Shinmeikai
+-   大辞林 Daijirin
+-   大辞泉 Daijisen
+-   明鏡 Meikyou
+-   新明解 Shinmeikai
 
-Daijirin and Daijisen contain the most and the most detailed entries, so it is worth importing them. They are especially
-useful for place names or the names of famous people as you are saving yourself a Google search.
+Daijirin and Daijisen contain extensive and detailed entries, useful for place names and famous people.
 
-Meikyou and Shinmeikai are written a bit simpler which makes them useful to people relatively early in their Japanese
-learning journey as well. You can essentially import all of them as it will not interfere with your mining.
+Meikyou and Shinmeikai are simpler, making them suitable for learners earlier in their Japanese journey. You can import all of them without interference.
 
 ---
 
-### Ordering your dictionaries
+### Ordering Dictionaries
 
-You can change the ordering of dictionaries in the pop-up window by changing the number assigned to them in the settings
-page. The dictionary at the top will also be the one your Anki cards use when creating cards.
+You can change the order of dictionaries in the pop-up window in the settings. The top dictionary is used for Anki card creation.
 
-Press `Configure installed and enabled dictionaries…` and move the dictionaries
-in the correct oder with the menu buttons.
+Go to `Configure installed and enabled dictionaries…` and reorder them using the menu buttons.
 
-If you are at a more advanced point in your Japanese studies I recommend putting Meikyou on the top. I found it to have
-the best entries for importing into flashcards. Otherwise, simply use JMdict.
+For advanced learners, prioritize Meikyou for its card entries. Otherwise, use Jitendex.
 
-If you imported all dictionaries and ordered them it should look something like this:
+A possible dictionary order:
 
 <figure>
   <img src="../images/dictionary_order.png" width="500"/>
-  <figcaption>One possible ordering of dictionaries.</figcaption>
+  <figcaption>Example dictionary order.</figcaption>
 </figure>
 
-The final popup might look something like this:
+Example popup:
 
 <figure>
   <img src="../images/yomichanentry.jpg" width="500"/>
@@ -117,11 +110,9 @@ The final popup might look something like this:
 
 ---
 
-## Additional settings
+## Additional Settings
 
-You should change the `Maximum number of child popups` to something other than zero. This enables you scan
-words inside the Yomitan popup. Very useful when combined with J-J dictionaries. You have to tick 
-`Allow scanning popup content` first to see this option.
+Set `Maximum number of child popups` to a value greater than zero to scan words within the Yomitan popup. Enable `Allow scanning popup content` to see this option.
 
 ![Additional results in Yomichan](images/additionalresults.jpg)
 
@@ -129,37 +120,48 @@ words inside the Yomitan popup. Very useful when combined with J-J dictionaries.
 
 ## Connect Yomitan and Anki
 
-Tick 'Enable Anki integration'.
+Enable 'Enable Anki integration'.
 
-Scroll down and select the deck and model for your mining deck. Remember that if you don't have a proper deck, yet you
-can use the [template mining deck](https://ankiweb.net/shared/info/151553357).
+Select the deck and model for your mining deck. If you don't have a deck, using [my fork of lapis](https://github.com/friedrich-de/lapis-modified).
+If you prefer the layout of the [original lapis deck](https://github.com/donkuri/lapis), you can also use that.
 
-If you are using the template, press `Configure Anki card format...` and fill the fields according to the 
-[GitHub page](https://github.com/friedrich-de/Basic-Mining-Deck).
+If using the template, go to `Configure Anki card format...` and fill the fields according to the table below.
 
---- 
 
-### Handlebars
+| Field                 | Value                                                                                                                                                      |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Expression            | `{expression}`                                                                                                                                             |
+| ExpressionFurigana    | `{furigana-plain}`                                                                                                                                         |
+| ExpressionReading     | `{reading}`                                                                                                                                                |
+| ExpressionAudio       | `{audio}`                                                                                                                                                  |
+| SelectionText         | `{popup-selection-text}`                                                                                                                                   |
+| MainDefinition        | Something like `{single-glossary-jmdict/jitendex}`. Find this by clicking the down arrow next to this field, and finding a dictionary in a similar format. |
+| Sentence              | `{cloze-prefix}<b>{cloze-body}</b>{cloze-suffix}`                                                                                                          |
+| SentenceFurigana      |                                                                                                                                                            |
+| SentenceAudio         |                                                                                                                                                            |
+| Picture               |                                                                                                                                                            |
+| Glossary              | `{glossary}`                                                                                                                                               |
+| Hint                  | To understand the usage of this field, refer to [this](ankicards.md)                                                                                 |
+| IsWordAndSentenceCard |                                                                                                                                                            |
+| IsClickCard           |                                                                                                                                                            |
+| IsSentenceCard        |                                                                                                                                                            |
+| PitchPosition         | `{pitch-accent-positions}`                                                                                                                                 |
+| PitchCategories       | `{pitch-accent-categories}`                                                                                                                                |
+| Frequency             | `{frequencies}`                                                                                                                                            |
+| FreqSort              | `{frequency-harmonic-rank}`                                                                                                                                |
+| MiscInfo              | `{document-title}` If you want your cards to include the title of the tab they were mined from, such as for light novels (LNs), please use this feature.   |
 
-Handlebars no longer have to be edited with the new card format.
+`{selection-text}` is the part of the definition you're highlighting in the popup and will be shown with a higher priority on the card. I recommend always hand-picking the most relevant part of the definition.
 
 ---
 
-### Card Configuration
-
-See [GitHub page](https://github.com/friedrich-de/Basic-Mining-Deck) for the recommended Yomichan/Yomitan fields/templates.
-
----
 
 ## Result
 
-You can now very easily create basic word cards by hovering over a word with Yomitan and pressing the + button. If
-pitch accent information is available it will also be present.
+You can now create basic word cards by hovering over a word with Yomitan, marking a definition and pressing the + button. Pitch accent information will be included if available.
 
+<img src="../images/hover.png" style="width:60%">
 
+Result (after adding context information):
 
-<img src="../images/miningacard.gif" style="width:60%">
-
-Results in:
-
-<img src="../images/wordcard.jpg" style="width:40%">
+<img src="../images/lapis_modified.png" style="width:80%">
