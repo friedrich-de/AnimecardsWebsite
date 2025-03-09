@@ -10,8 +10,7 @@ This section discusses formats, not card creation (which is covered elsewhere).
 
 > Note that the screenshots on this page are using an outdated format. I recommend using either 
 > [Lapis-modified](https://github.com/friedrich-de/lapis-modified) or [Lapis](https://github.com/donkuri/lapis) based on your preference.
-> Downloads are in the 'Releases' section.
-
+> You can find a direct download [here](https://ankiweb.net/shared/info/151553357) or in the 'Releases' section.
 
 ---
 
@@ -59,7 +58,7 @@ Depending on the situation, it may include:
 - A hint field on the front (more on this later).
 
 <figure>
-  <img src="../images/anime_card.png"/>
+  <img src="../images/lapis_modified_2.png"/>
 <figcaption>An example anime card (from anime).</figcaption>
 </figure>
 
