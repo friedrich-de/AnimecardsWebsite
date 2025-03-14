@@ -52,12 +52,19 @@
       </div>
     </div>
 
-        <!-- GitHub Link -->
-        <label class="md-header__button md-icon">
-          <a href="https://github.com/friedrich-de/AnimecardsWebsite">
-            {% include ".icons/material/github.svg" %}
-          </a>
-        </label>
+    <!-- GitHub Link -->
+    <label class="md-header__button md-icon">
+      <a href="https://github.com/friedrich-de/AnimecardsWebsite">
+        {% include ".icons/material/github.svg" %}
+      </a>
+    </label>
+
+    <!-- Patreon Link -->
+    <label class="md-header__button md-icon">
+      <a href="https://www.patreon.com/Quizmaster/membership">
+        {% include ".icons/material/star.svg" %}
+      </a>
+    </label>
 
     <!-- Color palette -->
     {% if not config.theme.palette is mapping %}
@@ -104,10 +111,10 @@
 
     <!-- Include Search -->
     {% if "material/search" in config.plugins %}
-      <label class="md-header__button md-icon" for="__search">
-        {% include ".icons/material/magnify.svg" %}
-      </label>
-      {% include "partials/search.html" %}
+    <label class="md-header__button md-icon" for="__search">
+      {% include ".icons/material/magnify.svg" %}
+    </label>
+    {% include "partials/search.html" %}
     {% endif %}
 
     <!-- Repository information -->

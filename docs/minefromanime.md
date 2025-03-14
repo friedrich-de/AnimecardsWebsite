@@ -25,12 +25,12 @@ Here is a video demonstration:
 1. A [mining deck set up with Yomitan](yomichansetup.md) 
    (I recommend either using [Lapis-modified](https://github.com/friedrich-de/lapis-modified) or [Lapis](https://github.com/donkuri/lapis). Downloads in the 'Releases' section.)
 2. The mpv video player. <p>mpv ([get it here if you are on Windows](https://mpv.io/)) is a free video player with great scripting capabilities.</p>
-3. The script itself. Download animecards_v35_modified.lua from here: https://github.com/friedrich-de/Anacreon-Script
-      - Anacreon seems to have disappeared from the internet so we're hoping to provide LTS in this repository. 
+3. The script itself. Download [`animecards_v35_modified.lua`](https://github.com/friedrich-de/Anacreon-Script)
+    - Anacreon seems to have disappeared from the internet so we're hoping to provide LTS in this repository. 
 4. A texthooker page. I recommend [texthooker-ui by Renji-XD](https://github.com/Renji-XD/texthooker-ui). 
    Download a local copy to access webhooks.
 5. (RECOMMENDED) The [mpv_websocket plugin](https://github.com/kuroahna/mpv_websocket), which sends subtitle text to the texthooker page.
-      - (NOT RECOMMENDED) If you want to use a clipboard inserter instead of a websocket, you need a [clipboard inserter plugin](https://github.com/laplus-sadness).  
+      - (NOT RECOMMENDED) If you want to use a clipboard inserter instead of a websocket, you need a [clipboard inserter plugin](https://github.com/laplus-sadness/lap-clipboard-inserter).  
 6. **(Linux users only)** Make sure xclip and curl are installed. 
    Windows and Mac users also require curl but it should be installed by default.
 

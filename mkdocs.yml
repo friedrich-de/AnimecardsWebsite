@@ -46,3 +46,5 @@ nav:
     - 'Other':
       - Discord: 'discord.md'
       - Offtopic Discord: 'discord_offtopic.md'
+    - 'Extras':
+       - 'Yomitan Audio': 'yomitan_audio.md'
