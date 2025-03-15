@@ -154,3 +154,14 @@ When using the [Generate Batch Audio Add-on for Anki](https://github.com/DillonW
     - `?reading=` should match your reading field (without any extras like fancy HTML)
 - Put in a delay of `0,2` to avoid getting rate limited.
 - **Warning:** As getting high fidelity AI TTS is expensive you may run into your API limit when generating a very large number of cards.
+
+
+### Size Comparison
+
+This is currently the biggest word audio database in existence. Here is an overview:
+
+| Audio Source                                                                                                | Entries             |
+| ----------------------------------------------------------------------------------------------------------- | ------------------- |
+| [Yomitan Ultimate Audio Source](https://animecards.site/yomitan_audio/)                                     | 775897 + TTS Fallback |
+| [Yomichan Audio Server Entries (Rust Server)](https://github.com/aramrw/yomichan_audio_server)               | 732607 (without Chinese)    |
+| [Local Audio Yomichan (Anki Add-on)](https://github.com/yomidevs/local-audio-yomichan)                       | 590410              |
