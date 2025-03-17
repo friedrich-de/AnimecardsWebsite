@@ -162,6 +162,6 @@ This is currently the biggest word audio database in existence. Here is an overv
 
 | Audio Source                                                                                                | Entries             |
 | ----------------------------------------------------------------------------------------------------------- | ------------------- |
-| [Yomitan Ultimate Audio Source](https://animecards.site/yomitan_audio/)                                     | 775897 + TTS Fallback |
+| [Yomitan Ultimate Audio Source](https://animecards.site/yomitan_audio/)                                     | 838078 + TTS Fallback |
 | [Yomichan Audio Server Entries (Rust Server)](https://github.com/aramrw/yomichan_audio_server)               | 732607 (without Chinese)    |
 | [Local Audio Yomichan (Anki Add-on)](https://github.com/yomidevs/local-audio-yomichan)                       | 590410              |
