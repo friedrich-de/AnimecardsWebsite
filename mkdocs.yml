@@ -25,6 +25,7 @@ plugins:
 markdown_extensions:
   - meta
   - attr_list
+  - footnotes
   - toc:
       permalink: true
       toc_depth: 3
