@@ -9,7 +9,7 @@ Tired of this sound?
 
 <insert video of clicking yomitan with no audio>
 
-I have created an audio source that uses several techniques to ensure you **always** get high quality audio for your Yomitan cards. Here is what it can do:
+I have created the biggest audio source that not only has the biggest collection of human pronunciations but also uses several techniques to ensure you **always** get high quality audio for your Yomitan cards. Here is what it can do:
 
 ## Match alternative forms
 
@@ -88,6 +88,33 @@ The TTS references known pitch accent patterns for words with multiple pitch acc
 
 If no pitch accent pattern is available the TTS will take a best guess.
 
+## TTS pitch accent override (**NEW**)
+
+Mining a word without an entry in the pitch accent database and the TTS guesses the wrong pitch accent? You can now generate every possible pitch accent variation there is including vowel variations. Let's look at a few example:
+
+Theoretically a word read as こう could be read in 4 ways: ```コウ、コー、コ'ウ、コ'ー```
+
+The **Ultimate Yomitan Audio Source** will now allow you to generate all of these variations letting you ensure you get correct pitch and pronunciation no matter how obscure the word is!
+
+<figure>
+  <img src="../images/kou_pitch.png" width="300">
+</figure>
+
+Let's look at one more example: 平成 (へいせい). In addition to giving you the TTS with the pitch from the database (平板 in this case), it will also let you generate every possible variation of the word.
+
+<figure>
+  <img src="../images/heisei_pitch.png" width="300">
+</figure>
+
+## Pick your sources (**NEW**)
+
+Only want human audio and no TTS? No problem. You can now pick and choose what sources you want to include.
+
+<figure>
+  <img src="../images/query_builder.png" width="400">
+</figure>
+
+
 ## No reading - No problem
 
 Some dictionaries have entries without any reading at all. The **Ultimate Yomitan Audio Source** can handle these entries by making an educated guess at the reading. For example:
@@ -118,7 +145,7 @@ Access is available for all users signed up to the **$1 tier** on my [Patreon](h
     <img src="../images/patreon_tier.png" width="600">
 </figure>
 
-1. Subscribe on [Patreon](https://www.patreon.com/c/quizmaster/membership) → Get your personal API key by authenticating [here](https://audio.animecards.site/auth/patreon).
+1. Subscribe on [Patreon](https://www.patreon.com/c/quizmaster/membership) → Get your personal API key by authenticating [here](https://audiov2.animecards.site/auth/patreon).
 
 2. Open Yomitan settings → Navigate to Audio sources → Add a new audio source with the following details:
 
@@ -162,6 +189,6 @@ This is currently the biggest word audio database in existence. Here is an overv
 
 | Audio Source                                                                                                | Entries             |
 | ----------------------------------------------------------------------------------------------------------- | ------------------- |
-| [Yomitan Ultimate Audio Source](https://animecards.site/yomitan_audio/)                                     | 838078 + TTS Fallback |
+| [Yomitan Ultimate Audio Source](https://animecards.site/yomitan_audio/)                                     | 877464 + TTS Fallback |
 | [Yomichan Audio Server Entries (Rust Server)](https://github.com/aramrw/yomichan_audio_server)               | 732607 (without Chinese)    |
 | [Local Audio Yomichan (Anki Add-on)](https://github.com/yomidevs/local-audio-yomichan)                       | 590410              |
