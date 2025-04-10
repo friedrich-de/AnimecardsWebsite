@@ -138,8 +138,11 @@ This exists as an entry in 新和英 without a reading.
 
 
 ## 📦 Installation
+You have two options:
 
-Access is available for all users signed up to the **$1 tier** on my [Patreon](https://www.patreon.com/c/quizmaster/membership). No add-on installation is required. Be aware that usage limits apply, but you should not reach them in normal usage.
+1. Run it yourself following the instructions here: <https://github.com/friedrich-de/yomitan-ultimate-audio>
+
+2. Sign up for the **1$ tier** on my [Patreon](https://www.patreon.com/c/quizmaster/membership) and get access to the hosted version of the **Ultimate Yomitan Audio Source**. This is the easiest way to get started and you don't have to worry about setting anything up.
 
 <figure>
     <img src="../images/patreon_tier.png" width="600">
